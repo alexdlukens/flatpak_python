@@ -6,10 +6,12 @@ from flatpak_python.schemas.general import HealthCheckResponse
 
 class FlatpakPythonClient:
     """
-    A client for interacting with the Flatpak Python API.
+    A client for interacting with the FlatHub API.
 
-    This client is used to make requests to the Flatpak Python API endpoints.
+    This client is used to make requests to the FlatHub API endpoints.
     It inherits from ApiClient and can be customized as needed.
+    
+    Will add flatpak daemon support in the future.
     """
 
     def __init__(self, config: Optional[Configuration] = None) -> None:
@@ -20,7 +22,7 @@ class FlatpakPythonClient:
 
     def ping(self) -> HealthCheckResponse:
         """
-        Check the health of the Flatpak Python API.
+        Check the health of the FlatHub API.
 
         Returns:
             HealthCheckResponse: The health check response.
