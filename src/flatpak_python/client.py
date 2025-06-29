@@ -2,7 +2,7 @@ from typing import Optional
 from openapi_client import ApiClient, Configuration
 import openapi_client.api as flatpak_apis
 from flatpak_python.schemas.general import HealthCheckResponse
-
+from flatpak_python.routes.app_picks import AppPicksRoutes
 
 class FlatpakPythonClient:
     """
@@ -19,6 +19,7 @@ class FlatpakPythonClient:
 
     def init_apis(self) -> None:
         self.healthcheck_api = flatpak_apis.HealthcheckApi(self.client)
+        self.app_picks_api = AppPicksRoutes(self.client)
 
     def ping(self) -> HealthCheckResponse:
         """
