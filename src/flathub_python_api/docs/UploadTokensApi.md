@@ -1,4 +1,4 @@
-# openapi_client.UploadTokensApi
+# flathub_python_api.UploadTokensApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -18,25 +18,25 @@ Create Upload Token
 
 
 ```python
-import openapi_client
-from openapi_client.models.new_token_response import NewTokenResponse
-from openapi_client.models.upload_token_request import UploadTokenRequest
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.new_token_response import NewTokenResponse
+from flathub_python_api.models.upload_token_request import UploadTokenRequest
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UploadTokensApi(api_client)
+    api_instance = flathub_python_api.UploadTokensApi(api_client)
     app_id = 'app_id_example' # str | 
-    upload_token_request = openapi_client.UploadTokenRequest() # UploadTokenRequest | 
+    upload_token_request = flathub_python_api.UploadTokenRequest() # UploadTokenRequest | 
 
     try:
         # Create Upload Token
@@ -90,22 +90,22 @@ Get all upload tokens for the given app
 
 
 ```python
-import openapi_client
-from openapi_client.models.tokens_response import TokensResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.tokens_response import TokensResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UploadTokensApi(api_client)
+    api_instance = flathub_python_api.UploadTokensApi(api_client)
     app_id = 'app_id_example' # str | 
     include_expired = False # bool |  (optional) (default to False)
 
@@ -159,21 +159,21 @@ Revoke Upload Token
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UploadTokensApi(api_client)
+    api_instance = flathub_python_api.UploadTokensApi(api_client)
     token_id = 56 # int | 
 
     try:

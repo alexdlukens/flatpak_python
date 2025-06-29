@@ -1,4 +1,4 @@
-# openapi_client.VerificationApi
+# flathub_python_api.VerificationApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -24,24 +24,24 @@ Archive
 
 
 ```python
-import openapi_client
-from openapi_client.models.archive_request import ArchiveRequest
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.archive_request import ArchiveRequest
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
     app_id = 'app_id_example' # str | 
-    archive_request = openapi_client.ArchiveRequest() # ArchiveRequest | 
+    archive_request = flathub_python_api.ArchiveRequest() # ArchiveRequest | 
 
     try:
         # Archive
@@ -93,22 +93,22 @@ Checks website verification, and if it succeeds, marks the app as verified for t
 
 
 ```python
-import openapi_client
-from openapi_client.models.website_verification_result import WebsiteVerificationResult
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.website_verification_result import WebsiteVerificationResult
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
     app_id = 'app_id_example' # str | 
     new_app = False # bool |  (optional) (default to False)
 
@@ -164,22 +164,22 @@ Gets the ways an app may be verified.
 
 
 ```python
-import openapi_client
-from openapi_client.models.available_methods import AvailableMethods
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.available_methods import AvailableMethods
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
     app_id = 'app_id_example' # str | 
     new_app = False # bool |  (optional) (default to False)
 
@@ -235,22 +235,22 @@ Gets the verification status of the given app.
 
 
 ```python
-import openapi_client
-from openapi_client.models.verification_status import VerificationStatus
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.verification_status import VerificationStatus
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -304,22 +304,22 @@ Returns the URL to request access to the organization so we can verify the user'
 
 
 ```python
-import openapi_client
-from openapi_client.models.link_response import LinkResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.link_response import LinkResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
 
     try:
         # Request Organization Access Github
@@ -368,22 +368,22 @@ Creates a token for the user to verify the app via website.
 
 
 ```python
-import openapi_client
-from openapi_client.models.website_verification_token import WebsiteVerificationToken
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.website_verification_token import WebsiteVerificationToken
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
     app_id = 'app_id_example' # str | 
     new_app = False # bool |  (optional) (default to False)
 
@@ -437,21 +437,21 @@ Switch To Direct Upload
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -503,21 +503,21 @@ If the current account has verified the given app, mark it as no longer verified
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -570,22 +570,22 @@ someone else, marks the app as verified.
 
 
 ```python
-import openapi_client
-from openapi_client.models.error_return import ErrorReturn
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.error_return import ErrorReturn
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VerificationApi(api_client)
+    api_instance = flathub_python_api.VerificationApi(api_client)
     app_id = 'app_id_example' # str | 
     new_app = False # bool |  (optional) (default to False)
 

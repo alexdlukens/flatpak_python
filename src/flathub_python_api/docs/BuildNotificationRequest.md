@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.build_notification_request import BuildNotificationRequest
+from flathub_python_api.models.build_notification_request import BuildNotificationRequest
 
 # TODO update the JSON string below
 json = "{}"

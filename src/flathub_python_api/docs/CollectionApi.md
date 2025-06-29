@@ -1,4 +1,4 @@
-# openapi_client.CollectionApi
+# flathub_python_api.CollectionApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -27,21 +27,21 @@ Get Categories
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
 
     try:
         # Get Categories
@@ -88,30 +88,30 @@ Get Category
 
 
 ```python
-import openapi_client
-from openapi_client.models.main_category import MainCategory
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.models.sort_by import SortBy
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.main_category import MainCategory
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.models.sort_by import SortBy
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
-    category = openapi_client.MainCategory() # MainCategory | 
+    api_instance = flathub_python_api.CollectionApi(api_client)
+    category = flathub_python_api.MainCategory() # MainCategory | 
     exclude_subcategories = ['exclude_subcategories_example'] # List[Optional[str]] |  (optional)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
     locale = 'en' # str |  (optional) (default to 'en')
-    sort_by = openapi_client.SortBy() # SortBy |  (optional)
+    sort_by = flathub_python_api.SortBy() # SortBy |  (optional)
 
     try:
         # Get Category
@@ -167,22 +167,22 @@ Get Developer
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     developer = 'developer_example' # str | 
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
@@ -240,22 +240,22 @@ Get Developers
 
 
 ```python
-import openapi_client
-from openapi_client.models.app_search_developers_response import AppSearchDevelopersResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.app_search_developers_response import AppSearchDevelopersResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
 
@@ -309,22 +309,22 @@ Get Keyword
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     keyword = 'keyword_example' # str | 
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
@@ -382,22 +382,22 @@ Get Mobile
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
     locale = 'en' # str |  (optional) (default to 'en')
@@ -453,22 +453,22 @@ Get Popular Last Month
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
     locale = 'en' # str |  (optional) (default to 'en')
@@ -524,22 +524,22 @@ Get Recently Added
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
     locale = 'en' # str |  (optional) (default to 'en')
@@ -595,22 +595,22 @@ Get Recently Updated
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
     locale = 'en' # str |  (optional) (default to 'en')
@@ -666,31 +666,31 @@ Get Subcategory
 
 
 ```python
-import openapi_client
-from openapi_client.models.main_category import MainCategory
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.models.sort_by import SortBy
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.main_category import MainCategory
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.models.sort_by import SortBy
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
-    category = openapi_client.MainCategory() # MainCategory | 
+    api_instance = flathub_python_api.CollectionApi(api_client)
+    category = flathub_python_api.MainCategory() # MainCategory | 
     subcategory = ['subcategory_example'] # List[Optional[str]] | 
     exclude_subcategories = ['exclude_subcategories_example'] # List[str] |  (optional)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
     locale = 'en' # str |  (optional) (default to 'en')
-    sort_by = openapi_client.SortBy() # SortBy |  (optional)
+    sort_by = flathub_python_api.SortBy() # SortBy |  (optional)
 
     try:
         # Get Subcategory
@@ -747,22 +747,22 @@ Get Trending Last Two Weeks
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
     locale = 'en' # str |  (optional) (default to 'en')
@@ -818,22 +818,22 @@ Get Verified
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CollectionApi(api_client)
+    api_instance = flathub_python_api.CollectionApi(api_client)
     page = 56 # int |  (optional)
     per_page = 56 # int |  (optional)
     locale = 'en' # str |  (optional) (default to 'en')

@@ -1,9 +1,9 @@
 import datetime
 from typing import Optional
 
-import openapi_client.api as flatpak_apis
-from openapi_client.models.app_of_the_day import AppOfTheDay
-from openapi_client.models.apps_of_the_week import AppsOfTheWeek
+import flathub_python_api.api as flatpak_apis
+from flathub_python_api.models.app_of_the_day import AppOfTheDay
+from flathub_python_api.models.apps_of_the_week import AppsOfTheWeek
 
 class AppPicksRoutes(flatpak_apis.AppPicksApi):
         

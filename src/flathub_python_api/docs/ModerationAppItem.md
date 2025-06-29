@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.moderation_app_item import ModerationAppItem
+from flathub_python_api.models.moderation_app_item import ModerationAppItem
 
 # TODO update the JSON string below
 json = "{}"

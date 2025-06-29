@@ -1,4 +1,4 @@
-# openapi_client.QualityModerationApi
+# flathub_python_api.QualityModerationApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -25,21 +25,21 @@ Delete Review Request For App
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -91,22 +91,22 @@ Get App Pick Recommendations
 
 
 ```python
-import openapi_client
-from openapi_client.models.app_pick_recommendations_response import AppPickRecommendationsResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.app_pick_recommendations_response import AppPickRecommendationsResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     recommendation_date = '2013-10-20' # date |  (optional)
 
     try:
@@ -158,22 +158,22 @@ Get Passing Quality Apps
 
 
 ```python
-import openapi_client
-from openapi_client.models.simple_quality_moderation_response import SimpleQualityModerationResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.simple_quality_moderation_response import SimpleQualityModerationResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     page = 1 # int |  (optional) (default to 1)
     page_size = 25 # int |  (optional) (default to 25)
 
@@ -227,22 +227,22 @@ Get Quality Moderation For App
 
 
 ```python
-import openapi_client
-from openapi_client.models.quality_moderation_response import QualityModerationResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.quality_moderation_response import QualityModerationResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -294,22 +294,22 @@ Get Quality Moderation Stats
 
 
 ```python
-import openapi_client
-from openapi_client.models.failed_by_guideline import FailedByGuideline
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.failed_by_guideline import FailedByGuideline
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
 
     try:
         # Get Quality Moderation Stats
@@ -356,22 +356,22 @@ Get Quality Moderation Status For App
 
 
 ```python
-import openapi_client
-from openapi_client.models.quality_moderation_status import QualityModerationStatus
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.quality_moderation_status import QualityModerationStatus
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -423,22 +423,22 @@ Get Quality Moderation Status
 
 
 ```python
-import openapi_client
-from openapi_client.models.quality_moderation_dashboard_response import QualityModerationDashboardResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.quality_moderation_dashboard_response import QualityModerationDashboardResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     page = 1 # int |  (optional) (default to 1)
     page_size = 25 # int |  (optional) (default to 25)
     filter = all # str |  (optional) (default to all)
@@ -494,21 +494,21 @@ Request Review For App
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -560,21 +560,21 @@ Set Fullscreen App
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     app_id = 'app_id_example' # str | 
     is_fullscreen_app = True # bool | 
 
@@ -628,24 +628,24 @@ Set Quality Moderation For App
 
 
 ```python
-import openapi_client
-from openapi_client.models.upsert_quality_moderation import UpsertQualityModeration
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.upsert_quality_moderation import UpsertQualityModeration
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.QualityModerationApi(api_client)
+    api_instance = flathub_python_api.QualityModerationApi(api_client)
     app_id = 'app_id_example' # str | 
-    upsert_quality_moderation = openapi_client.UpsertQualityModeration() # UpsertQualityModeration | 
+    upsert_quality_moderation = flathub_python_api.UpsertQualityModeration() # UpsertQualityModeration | 
 
     try:
         # Set Quality Moderation For App

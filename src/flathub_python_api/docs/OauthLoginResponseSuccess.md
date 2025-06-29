@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.oauth_login_response_success import OauthLoginResponseSuccess
+from flathub_python_api.models.oauth_login_response_success import OauthLoginResponseSuccess
 
 # TODO update the JSON string below
 json = "{}"

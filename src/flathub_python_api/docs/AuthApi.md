@@ -1,4 +1,4 @@
-# openapi_client.AuthApi
+# flathub_python_api.AuthApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -57,23 +57,23 @@ of whether or not the login sequence completed OK.
 
 
 ```python
-import openapi_client
-from openapi_client.models.data import Data
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.data import Data
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
-    data = openapi_client.Data() # Data | 
+    api_instance = flathub_python_api.AuthApi(api_client)
+    data = flathub_python_api.Data() # Data | 
 
     try:
         # Continue Github Flow
@@ -149,23 +149,23 @@ of whether or not the login sequence completed OK.
 
 
 ```python
-import openapi_client
-from openapi_client.models.data import Data
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.data import Data
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
-    data = openapi_client.Data() # Data | 
+    api_instance = flathub_python_api.AuthApi(api_client)
+    data = flathub_python_api.Data() # Data | 
 
     try:
         # Continue Gitlab Flow
@@ -241,23 +241,23 @@ of whether or not the login sequence completed OK.
 
 
 ```python
-import openapi_client
-from openapi_client.models.data import Data
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.data import Data
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
-    data = openapi_client.Data() # Data | 
+    api_instance = flathub_python_api.AuthApi(api_client)
+    data = flathub_python_api.Data() # Data | 
 
     try:
         # Continue Gnome Flow
@@ -333,23 +333,23 @@ of whether or not the login sequence completed OK.
 
 
 ```python
-import openapi_client
-from openapi_client.models.data import Data
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.data import Data
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
-    data = openapi_client.Data() # Data | 
+    api_instance = flathub_python_api.AuthApi(api_client)
+    data = flathub_python_api.Data() # Data | 
 
     try:
         # Continue Google Flow
@@ -400,23 +400,23 @@ Continue Kde Flow
 
 
 ```python
-import openapi_client
-from openapi_client.models.data import Data
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.data import Data
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
-    data = openapi_client.Data() # Data | 
+    api_instance = flathub_python_api.AuthApi(api_client)
+    data = flathub_python_api.Data() # Data | 
 
     try:
         # Continue Kde Flow
@@ -467,21 +467,21 @@ Do Agree To Publisher Agreement
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Do Agree To Publisher Agreement
@@ -530,23 +530,23 @@ Changes the user's default account, which determines which display name and emai
 
 
 ```python
-import openapi_client
-from openapi_client.models.connected_account_provider import ConnectedAccountProvider
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.connected_account_provider import ConnectedAccountProvider
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
-    provider = openapi_client.ConnectedAccountProvider() # ConnectedAccountProvider | 
+    api_instance = flathub_python_api.AuthApi(api_client)
+    provider = flathub_python_api.ConnectedAccountProvider() # ConnectedAccountProvider | 
 
     try:
         # Do Change Default Account
@@ -606,24 +606,24 @@ The input to this should be of the form:
 
 
 ```python
-import openapi_client
-from openapi_client.models.delete_user_result import DeleteUserResult
-from openapi_client.models.user_delete_request import UserDeleteRequest
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.delete_user_result import DeleteUserResult
+from flathub_python_api.models.user_delete_request import UserDeleteRequest
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
-    user_delete_request = openapi_client.UserDeleteRequest() # UserDeleteRequest | 
+    api_instance = flathub_python_api.AuthApi(api_client)
+    user_delete_request = flathub_python_api.UserDeleteRequest() # UserDeleteRequest | 
 
     try:
         # Do Deleteuser
@@ -677,21 +677,21 @@ and will clear the session cookie so that the user is not logged in.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Do Logout
@@ -738,22 +738,22 @@ Do Refresh Dev Flatpaks
 
 
 ```python
-import openapi_client
-from openapi_client.models.refresh_dev_flatpaks_return import RefreshDevFlatpaksReturn
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.refresh_dev_flatpaks_return import RefreshDevFlatpaksReturn
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Do Refresh Dev Flatpaks
@@ -805,22 +805,22 @@ and data.
 
 
 ```python
-import openapi_client
-from openapi_client.models.get_delete_user_result import GetDeleteUserResult
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.get_delete_user_result import GetDeleteUserResult
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Get Deleteuser
@@ -876,22 +876,22 @@ frontends with localisation may choose to render other text instead.
 
 
 ```python
-import openapi_client
-from openapi_client.models.login_method import LoginMethod
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.login_method import LoginMethod
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Get Login Methods
@@ -957,22 +957,22 @@ dev_flatpaks is filtered against IDs available in AppStream
 
 
 ```python
-import openapi_client
-from openapi_client.models.user_info import UserInfo
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.user_info import UserInfo
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Get Userinfo
@@ -1029,21 +1029,21 @@ then this will return an error instead.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Start Github Flow
@@ -1100,21 +1100,21 @@ then this will return an error instead.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Start Gitlab Flow
@@ -1171,21 +1171,21 @@ then this will return an error instead.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Start Gnome Flow
@@ -1232,21 +1232,21 @@ Start Kde Flow
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AuthApi(api_client)
+    api_instance = flathub_python_api.AuthApi(api_client)
 
     try:
         # Start Kde Flow

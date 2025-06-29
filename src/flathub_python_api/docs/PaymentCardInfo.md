@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.payment_card_info import PaymentCardInfo
+from flathub_python_api.models.payment_card_info import PaymentCardInfo
 
 # TODO update the JSON string below
 json = "{}"

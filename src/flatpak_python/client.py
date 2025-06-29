@@ -1,6 +1,6 @@
 from typing import Optional
-from openapi_client import ApiClient, Configuration
-import openapi_client.api as flatpak_apis
+from flathub_python_api import ApiClient, Configuration
+import flathub_python_api.api as flatpak_apis
 from flatpak_python.schemas.general import HealthCheckResponse
 from flatpak_python.routes.app_picks import AppPicksRoutes
 

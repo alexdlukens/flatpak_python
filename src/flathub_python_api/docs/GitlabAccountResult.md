@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.gitlab_account_result import GitlabAccountResult
+from flathub_python_api.models.gitlab_account_result import GitlabAccountResult
 
 # TODO update the JSON string below
 json = "{}"

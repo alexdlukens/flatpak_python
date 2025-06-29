@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.app_of_the_day import AppOfTheDay
+from flathub_python_api.models.app_of_the_day import AppOfTheDay
 
 # TODO update the JSON string below
 json = "{}"

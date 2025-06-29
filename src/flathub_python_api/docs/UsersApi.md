@@ -1,4 +1,4 @@
-# openapi_client.UsersApi
+# flathub_python_api.UsersApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -23,25 +23,25 @@ Add a role to a user
 
 
 ```python
-import openapi_client
-from openapi_client.models.role_name import RoleName
-from openapi_client.models.user_result import UserResult
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.role_name import RoleName
+from flathub_python_api.models.user_result import UserResult
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UsersApi(api_client)
+    api_instance = flathub_python_api.UsersApi(api_client)
     user_id = 56 # int | 
-    role = openapi_client.RoleName() # RoleName | 
+    role = flathub_python_api.RoleName() # RoleName | 
 
     try:
         # Add User Role
@@ -95,25 +95,25 @@ Remove a role from a user
 
 
 ```python
-import openapi_client
-from openapi_client.models.role_name import RoleName
-from openapi_client.models.user_result import UserResult
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.role_name import RoleName
+from flathub_python_api.models.user_result import UserResult
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UsersApi(api_client)
+    api_instance = flathub_python_api.UsersApi(api_client)
     user_id = 56 # int | 
-    role = openapi_client.RoleName() # RoleName | 
+    role = flathub_python_api.RoleName() # RoleName | 
 
     try:
         # Delete User Role
@@ -167,24 +167,24 @@ Return all users with a specific role
 
 
 ```python
-import openapi_client
-from openapi_client.models.role_name import RoleName
-from openapi_client.models.user_result import UserResult
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.role_name import RoleName
+from flathub_python_api.models.user_result import UserResult
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UsersApi(api_client)
-    role_name = openapi_client.RoleName() # RoleName | 
+    api_instance = flathub_python_api.UsersApi(api_client)
+    role_name = flathub_python_api.RoleName() # RoleName | 
 
     try:
         # Role Users
@@ -237,21 +237,21 @@ Return a list of all known role names
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UsersApi(api_client)
+    api_instance = flathub_python_api.UsersApi(api_client)
 
     try:
         # Roles
@@ -300,22 +300,22 @@ Return the current user
 
 
 ```python
-import openapi_client
-from openapi_client.models.user_result import UserResult
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.user_result import UserResult
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UsersApi(api_client)
+    api_instance = flathub_python_api.UsersApi(api_client)
     user_id = 56 # int | 
 
     try:
@@ -369,22 +369,22 @@ Return a list of all known users
 
 
 ```python
-import openapi_client
-from openapi_client.models.flathub_users_result import FlathubUsersResult
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.flathub_users_result import FlathubUsersResult
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UsersApi(api_client)
+    api_instance = flathub_python_api.UsersApi(api_client)
     page = 1 # int |  (optional) (default to 1)
     page_size = 30 # int |  (optional) (default to 30)
     filter_string = 'filter_string_example' # str |  (optional)

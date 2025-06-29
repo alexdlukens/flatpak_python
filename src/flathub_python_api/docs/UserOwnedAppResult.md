@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.user_owned_app_result import UserOwnedAppResult
+from flathub_python_api.models.user_owned_app_result import UserOwnedAppResult
 
 # TODO update the JSON string below
 json = "{}"

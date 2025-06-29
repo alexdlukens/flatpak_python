@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.kde_account_result import KdeAccountResult
+from flathub_python_api.models.kde_account_result import KdeAccountResult
 
 # TODO update the JSON string below
 json = "{}"

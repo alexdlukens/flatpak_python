@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.app_routes_invites_developers_response import AppRoutesInvitesDevelopersResponse
+from flathub_python_api.models.app_routes_invites_developers_response import AppRoutesInvitesDevelopersResponse
 
 # TODO update the JSON string below
 json = "{}"

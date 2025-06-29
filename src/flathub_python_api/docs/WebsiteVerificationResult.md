@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.website_verification_result import WebsiteVerificationResult
+from flathub_python_api.models.website_verification_result import WebsiteVerificationResult
 
 # TODO update the JSON string below
 json = "{}"

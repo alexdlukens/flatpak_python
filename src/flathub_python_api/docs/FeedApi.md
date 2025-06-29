@@ -1,4 +1,4 @@
-# openapi_client.FeedApi
+# flathub_python_api.FeedApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -17,21 +17,21 @@ Get New Apps Feed
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FeedApi(api_client)
+    api_instance = flathub_python_api.FeedApi(api_client)
 
     try:
         # Get New Apps Feed
@@ -78,21 +78,21 @@ Get Recently Updated Apps Feed
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FeedApi(api_client)
+    api_instance = flathub_python_api.FeedApi(api_client)
 
     try:
         # Get Recently Updated Apps Feed

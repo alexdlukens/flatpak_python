@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.available_methods import AvailableMethods
+from flathub_python_api.models.available_methods import AvailableMethods
 
 # TODO update the JSON string below
 json = "{}"

@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
 
 # TODO update the JSON string below
 json = "{}"

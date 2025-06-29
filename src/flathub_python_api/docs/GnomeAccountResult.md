@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.gnome_account_result import GnomeAccountResult
+from flathub_python_api.models.gnome_account_result import GnomeAccountResult
 
 # TODO update the JSON string below
 json = "{}"

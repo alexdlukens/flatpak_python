@@ -37,7 +37,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.apps_index import AppsIndex
+from flathub_python_api.models.apps_index import AppsIndex
 
 # TODO update the JSON string below
 json = "{}"

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.search_query import SearchQuery
+from flathub_python_api.models.search_query import SearchQuery
 
 # TODO update the JSON string below
 json = "{}"

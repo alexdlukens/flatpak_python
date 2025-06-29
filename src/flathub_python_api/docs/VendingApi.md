@@ -1,4 +1,4 @@
-# openapi_client.VendingApi
+# flathub_python_api.VendingApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -29,22 +29,22 @@ This determines the vending info for the app and returns it
 
 
 ```python
-import openapi_client
-from openapi_client.models.vending_application_information import VendingApplicationInformation
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.vending_application_information import VendingApplicationInformation
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -98,22 +98,22 @@ Cancel a set of tokens
 
 
 ```python
-import openapi_client
-from openapi_client.models.token_cancellation import TokenCancellation
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.token_cancellation import TokenCancellation
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
     app_id = 'app_id_example' # str | 
     request_body = ['request_body_example'] # List[str] | 
 
@@ -171,22 +171,22 @@ The calling user must own the vending config for this application
 
 
 ```python
-import openapi_client
-from openapi_client.models.token_model import TokenModel
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.token_model import TokenModel
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
     app_id = 'app_id_example' # str | 
     request_body = ['request_body_example'] # List[Optional[str]] | 
 
@@ -242,22 +242,22 @@ Retrieve the vending status for a given application.
 
 
 ```python
-import openapi_client
-from openapi_client.models.vending_setup import VendingSetup
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.vending_setup import VendingSetup
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -313,22 +313,22 @@ The user must be logged in and must have onboarded.
 
 
 ```python
-import openapi_client
-from openapi_client.models.vending_redirect import VendingRedirect
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.vending_redirect import VendingRedirect
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
 
     try:
         # Get Dashboard Link
@@ -382,22 +382,22 @@ Configuration includes:
 
 
 ```python
-import openapi_client
-from openapi_client.models.vending_config import VendingConfig
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.vending_config import VendingConfig
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
 
     try:
         # Get Global Vending Config
@@ -450,22 +450,22 @@ For now, there is no pagination or filtering, all tokens will be returned
 
 
 ```python
-import openapi_client
-from openapi_client.models.token_list import TokenList
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.token_list import TokenList
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -527,25 +527,25 @@ then you will get an error
 
 
 ```python
-import openapi_client
-from openapi_client.models.vending_setup import VendingSetup
-from openapi_client.models.vending_setup_request import VendingSetupRequest
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.vending_setup import VendingSetup
+from flathub_python_api.models.vending_setup_request import VendingSetupRequest
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
     app_id = 'app_id_example' # str | 
-    vending_setup_request = openapi_client.VendingSetupRequest() # VendingSetupRequest | 
+    vending_setup_request = flathub_python_api.VendingSetupRequest() # VendingSetupRequest | 
 
     try:
         # Post App Vending Setup
@@ -604,25 +604,25 @@ returned in the output of the call.
 
 
 ```python
-import openapi_client
-from openapi_client.models.proposed_payment import ProposedPayment
-from openapi_client.models.vending_output import VendingOutput
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.proposed_payment import ProposedPayment
+from flathub_python_api.models.vending_output import VendingOutput
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
     app_id = 'app_id_example' # str | 
-    proposed_payment = openapi_client.ProposedPayment() # ProposedPayment | 
+    proposed_payment = flathub_python_api.ProposedPayment() # ProposedPayment | 
 
     try:
         # Post App Vending Status
@@ -678,22 +678,22 @@ If the logged in user already owns the app then the token will not be redeemed
 
 
 ```python
-import openapi_client
-from openapi_client.models.redemption_result import RedemptionResult
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.redemption_result import RedemptionResult
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
     app_id = 'app_id_example' # str | 
     token = 'token_example' # str | 
 
@@ -749,24 +749,24 @@ Start or continue the onboarding process.
 
 
 ```python
-import openapi_client
-from openapi_client.models.vending_onboarding_request import VendingOnboardingRequest
-from openapi_client.models.vending_redirect import VendingRedirect
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.vending_onboarding_request import VendingOnboardingRequest
+from flathub_python_api.models.vending_redirect import VendingRedirect
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
-    vending_onboarding_request = openapi_client.VendingOnboardingRequest() # VendingOnboardingRequest | 
+    api_instance = flathub_python_api.VendingApi(api_client)
+    vending_onboarding_request = flathub_python_api.VendingOnboardingRequest() # VendingOnboardingRequest | 
 
     try:
         # Start Onboarding
@@ -822,22 +822,22 @@ flow to be a vendor on Flathub.
 
 
 ```python
-import openapi_client
-from openapi_client.models.vending_status import VendingStatus
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.vending_status import VendingStatus
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.VendingApi(api_client)
+    api_instance = flathub_python_api.VendingApi(api_client)
 
     try:
         # Status

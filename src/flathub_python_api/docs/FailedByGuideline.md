@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.failed_by_guideline import FailedByGuideline
+from flathub_python_api.models.failed_by_guideline import FailedByGuideline
 
 # TODO update the JSON string below
 json = "{}"

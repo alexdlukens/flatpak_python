@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.keys_value import KeysValue
+from flathub_python_api.models.keys_value import KeysValue
 
 # TODO update the JSON string below
 json = "{}"

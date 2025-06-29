@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.validation_error import ValidationError
+from flathub_python_api.models.validation_error import ValidationError
 
 # TODO update the JSON string below
 json = "{}"

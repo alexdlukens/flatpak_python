@@ -1,4 +1,4 @@
-# openapi_client.AppApi
+# flathub_python_api.AppApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -37,21 +37,21 @@ Add an app to a users favorites. The appid is the ID of the app to add.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -103,21 +103,21 @@ Get Addons
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -169,21 +169,21 @@ Get Appstream
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
     locale = 'en' # str |  (optional) (default to 'en')
 
@@ -237,21 +237,21 @@ Get Eol Message Appid
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
     branch = 'stable' # str |  (optional) (default to 'stable')
 
@@ -305,21 +305,21 @@ Get Eol Message
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
 
     try:
         # Get Eol Message
@@ -366,21 +366,21 @@ Get Eol Rebase Appid
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
     branch = 'stable' # str |  (optional) (default to 'stable')
 
@@ -434,21 +434,21 @@ Get Eol Rebase
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
 
     try:
         # Get Eol Rebase
@@ -495,21 +495,21 @@ Get Exceptions
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
 
     try:
         # Get Exceptions
@@ -556,21 +556,21 @@ Get Exceptions
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
 
     try:
         # Get Exceptions
@@ -617,21 +617,21 @@ Get Exceptions For App
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -683,21 +683,21 @@ Get Exceptions For App
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -751,22 +751,22 @@ Get a list of the users favorite apps.
 
 
 ```python
-import openapi_client
-from openapi_client.models.favorite_app import FavoriteApp
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.favorite_app import FavoriteApp
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
 
     try:
         # Get Favorites
@@ -813,21 +813,21 @@ Get Isfullscreenapp
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -883,22 +883,22 @@ and donations APIs to address amounts to the platforms.
 
 
 ```python
-import openapi_client
-from openapi_client.models.platform import Platform
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.platform import Platform
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
 
     try:
         # Get Platforms
@@ -945,21 +945,21 @@ Get Runtime List
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
 
     try:
         # Get Runtime List
@@ -1006,21 +1006,21 @@ Get Summary
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
     branch = 'branch_example' # str |  (optional)
 
@@ -1074,21 +1074,21 @@ Is Favorited
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -1140,23 +1140,23 @@ List Appstream
 
 
 ```python
-import openapi_client
-from openapi_client.models.app_type import AppType
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.app_type import AppType
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
-    filter = openapi_client.AppType() # AppType |  (optional)
+    api_instance = flathub_python_api.AppApi(api_client)
+    filter = flathub_python_api.AppType() # AppType |  (optional)
 
     try:
         # List Appstream
@@ -1207,24 +1207,24 @@ Post Search
 
 
 ```python
-import openapi_client
-from openapi_client.models.meilisearch_response_limited_apps_index import MeilisearchResponseLimitedAppsIndex
-from openapi_client.models.search_query import SearchQuery
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.meilisearch_response_limited_apps_index import MeilisearchResponseLimitedAppsIndex
+from flathub_python_api.models.search_query import SearchQuery
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
-    search_query = openapi_client.SearchQuery() # SearchQuery | 
+    api_instance = flathub_python_api.AppApi(api_client)
+    search_query = flathub_python_api.SearchQuery() # SearchQuery | 
     locale = 'en' # str |  (optional) (default to 'en')
 
     try:
@@ -1279,21 +1279,21 @@ Remove an app from a users favorites. The appid is the ID of the app to remove.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppApi(api_client)
+    api_instance = flathub_python_api.AppApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:

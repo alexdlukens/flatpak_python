@@ -1,4 +1,4 @@
-# openapi_client.PurchaseApi
+# flathub_python_api.PurchaseApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -25,22 +25,22 @@ App IDs can be in the form of full refs, e.g. "app/org.gnome.Maps/x86_64/stable"
 
 
 ```python
-import openapi_client
-from openapi_client.models.check_purchases_response_success import CheckPurchasesResponseSuccess
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.check_purchases_response_success import CheckPurchasesResponseSuccess
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PurchaseApi(api_client)
+    api_instance = flathub_python_api.PurchaseApi(api_client)
     request_body = ['request_body_example'] # List[Optional[str]] | 
 
     try:
@@ -95,24 +95,24 @@ Generates a download token for the given app IDs. App IDs should be in the form 
 
 
 ```python
-import openapi_client
-from openapi_client.models.body_get_download_token_purchases_generate_download_token_post import BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost
-from openapi_client.models.get_download_token_response import GetDownloadTokenResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.body_get_download_token_purchases_generate_download_token_post import BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost
+from flathub_python_api.models.get_download_token_response import GetDownloadTokenResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PurchaseApi(api_client)
-    body_get_download_token_purchases_generate_download_token_post = openapi_client.BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost() # BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost | 
+    api_instance = flathub_python_api.PurchaseApi(api_client)
+    body_get_download_token_purchases_generate_download_token_post = flathub_python_api.BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost() # BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost | 
 
     try:
         # Get Download Token
@@ -166,21 +166,21 @@ database yet. This is needed in flat-manager-hooks to run validations the first 
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PurchaseApi(api_client)
+    api_instance = flathub_python_api.PurchaseApi(api_client)
     app_id = 'app_id_example' # str | 
     license = 'license_example' # str |  (optional)
 
@@ -237,22 +237,22 @@ file and commit metadata.
 
 
 ```python
-import openapi_client
-from openapi_client.models.storefront_info import StorefrontInfo
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.storefront_info import StorefrontInfo
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PurchaseApi(api_client)
+    api_instance = flathub_python_api.PurchaseApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -308,22 +308,22 @@ able to update apps without user interaction.
 
 
 ```python
-import openapi_client
-from openapi_client.models.generate_update_token_response import GenerateUpdateTokenResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.generate_update_token_response import GenerateUpdateTokenResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PurchaseApi(api_client)
+    api_instance = flathub_python_api.PurchaseApi(api_client)
 
     try:
         # Get Update Token

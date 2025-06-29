@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.website_verification_token import WebsiteVerificationToken
+from flathub_python_api.models.website_verification_token import WebsiteVerificationToken
 
 # TODO update the JSON string below
 json = "{}"

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.delete_user_result import DeleteUserResult
+from flathub_python_api.models.delete_user_result import DeleteUserResult
 
 # TODO update the JSON string below
 json = "{}"

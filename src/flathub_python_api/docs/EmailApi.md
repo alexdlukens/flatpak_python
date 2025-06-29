@@ -1,4 +1,4 @@
-# openapi_client.EmailApi
+# flathub_python_api.EmailApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -17,14 +17,14 @@ Build Notification
 * Bearer Authentication (HTTPBearer):
 
 ```python
-import openapi_client
-from openapi_client.models.build_notification_request import BuildNotificationRequest
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.build_notification_request import BuildNotificationRequest
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
@@ -34,15 +34,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: HTTPBearer
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.EmailApi(api_client)
-    build_notification_request = openapi_client.BuildNotificationRequest() # BuildNotificationRequest | 
+    api_instance = flathub_python_api.EmailApi(api_client)
+    build_notification_request = flathub_python_api.BuildNotificationRequest() # BuildNotificationRequest | 
 
     try:
         # Build Notification

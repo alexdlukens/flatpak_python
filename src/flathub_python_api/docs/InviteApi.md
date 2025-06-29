@@ -1,4 +1,4 @@
-# openapi_client.InviteApi
+# flathub_python_api.InviteApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -23,21 +23,21 @@ Accept Invite
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InviteApi(api_client)
+    api_instance = flathub_python_api.InviteApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -87,21 +87,21 @@ Decline Invite
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InviteApi(api_client)
+    api_instance = flathub_python_api.InviteApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -151,22 +151,22 @@ Get App Developers
 
 
 ```python
-import openapi_client
-from openapi_client.models.app_routes_invites_developers_response import AppRoutesInvitesDevelopersResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.app_routes_invites_developers_response import AppRoutesInvitesDevelopersResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InviteApi(api_client)
+    api_instance = flathub_python_api.InviteApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -218,22 +218,22 @@ Get Invite Status
 
 
 ```python
-import openapi_client
-from openapi_client.models.invite_status import InviteStatus
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.invite_status import InviteStatus
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InviteApi(api_client)
+    api_instance = flathub_python_api.InviteApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -285,21 +285,21 @@ Invite Developer
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InviteApi(api_client)
+    api_instance = flathub_python_api.InviteApi(api_client)
     app_id = 'app_id_example' # str | 
     invite_code = 'invite_code_example' # str | 
 
@@ -351,21 +351,21 @@ Leave Team
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InviteApi(api_client)
+    api_instance = flathub_python_api.InviteApi(api_client)
     app_id = 'app_id_example' # str | 
 
     try:
@@ -415,21 +415,21 @@ Remove Developer
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InviteApi(api_client)
+    api_instance = flathub_python_api.InviteApi(api_client)
     app_id = 'app_id_example' # str | 
     developer_id = 56 # int | 
 
@@ -481,21 +481,21 @@ Revoke Invite
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InviteApi(api_client)
+    api_instance = flathub_python_api.InviteApi(api_client)
     app_id = 'app_id_example' # str | 
     invite_id = 56 # int | 
 

@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.quality_moderation_type import QualityModerationType
+from flathub_python_api.models.quality_moderation_type import QualityModerationType
 
 # TODO update the JSON string below
 json = "{}"

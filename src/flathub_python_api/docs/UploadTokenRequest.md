@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.upload_token_request import UploadTokenRequest
+from flathub_python_api.models.upload_token_request import UploadTokenRequest
 
 # TODO update the JSON string below
 json = "{}"

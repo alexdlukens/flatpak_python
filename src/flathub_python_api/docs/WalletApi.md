@@ -1,4 +1,4 @@
-# openapi_client.WalletApi
+# flathub_python_api.WalletApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -33,21 +33,21 @@ payments from completing.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
     txn = 'txn_example' # str | 
 
     try:
@@ -104,24 +104,24 @@ return the ID of the newly created wallet, otherwise it'll return an error
 
 
 ```python
-import openapi_client
-from openapi_client.models.nascent_transaction import NascentTransaction
-from openapi_client.models.post_transaction_response import PostTransactionResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.nascent_transaction import NascentTransaction
+from flathub_python_api.models.post_transaction_response import PostTransactionResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
-    nascent_transaction = openapi_client.NascentTransaction() # NascentTransaction | 
+    api_instance = flathub_python_api.WalletApi(api_client)
+    nascent_transaction = flathub_python_api.NascentTransaction() # NascentTransaction | 
 
     try:
         # Create Transaction
@@ -175,22 +175,22 @@ considered secret, we don't need a login or anything for this
 
 
 ```python
-import openapi_client
-from openapi_client.models.stripe_keys import StripeKeys
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.stripe_keys import StripeKeys
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
 
     try:
         # Get Stripedata
@@ -243,22 +243,22 @@ if available.
 
 
 ```python
-import openapi_client
-from openapi_client.models.transaction import Transaction
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.transaction import Transaction
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
     txn = 'txn_example' # str | 
 
     try:
@@ -315,24 +315,24 @@ summaries will be returned.
 
 
 ```python
-import openapi_client
-from openapi_client.models.transaction_sort_order import TransactionSortOrder
-from openapi_client.models.transaction_summary import TransactionSummary
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.transaction_sort_order import TransactionSortOrder
+from flathub_python_api.models.transaction_summary import TransactionSummary
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
-    sort = openapi_client.TransactionSortOrder() # TransactionSortOrder |  (optional)
+    api_instance = flathub_python_api.WalletApi(api_client)
+    sort = flathub_python_api.TransactionSortOrder() # TransactionSortOrder |  (optional)
     since = 'since_example' # str |  (optional)
     limit = 100 # int |  (optional) (default to 100)
 
@@ -392,22 +392,22 @@ will only work for transactions which *are* Stripe transactions.
 
 
 ```python
-import openapi_client
-from openapi_client.models.transaction_stripe_data import TransactionStripeData
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.transaction_stripe_data import TransactionStripeData
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
     txn = 'txn_example' # str | 
 
     try:
@@ -463,22 +463,22 @@ This will return a list of cards which the user has saved to their account.
 
 
 ```python
-import openapi_client
-from openapi_client.models.wallet_info import WalletInfo
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.wallet_info import WalletInfo
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
 
     try:
         # Get Walletinfo
@@ -530,23 +530,23 @@ wallet info endpoint.
 
 
 ```python
-import openapi_client
-from openapi_client.models.payment_card_info import PaymentCardInfo
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.payment_card_info import PaymentCardInfo
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
-    payment_card_info = openapi_client.PaymentCardInfo() # PaymentCardInfo | 
+    api_instance = flathub_python_api.WalletApi(api_client)
+    payment_card_info = flathub_python_api.PaymentCardInfo() # PaymentCardInfo | 
 
     try:
         # Post Removecard
@@ -600,21 +600,21 @@ flows don't quite work (e.g. webhook goes missing)
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
     txn = 'txn_example' # str | 
 
     try:
@@ -676,24 +676,24 @@ re-authenticating
 
 
 ```python
-import openapi_client
-from openapi_client.models.transaction_save_card import TransactionSaveCard
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.transaction_save_card import TransactionSaveCard
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
     txn = 'txn_example' # str | 
-    transaction_save_card = openapi_client.TransactionSaveCard() # TransactionSaveCard | 
+    transaction_save_card = flathub_python_api.TransactionSaveCard() # TransactionSaveCard | 
 
     try:
         # Set Savecard
@@ -750,24 +750,24 @@ info endpoint or else the update may not succeed
 
 
 ```python
-import openapi_client
-from openapi_client.models.payment_card_info import PaymentCardInfo
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.payment_card_info import PaymentCardInfo
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
     txn = 'txn_example' # str | 
-    payment_card_info = openapi_client.PaymentCardInfo() # PaymentCardInfo | 
+    payment_card_info = flathub_python_api.PaymentCardInfo() # PaymentCardInfo | 
 
     try:
         # Set Transaction Card
@@ -826,21 +826,21 @@ kind to wallet kind.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WalletApi(api_client)
+    api_instance = flathub_python_api.WalletApi(api_client)
 
     try:
         # Webhook

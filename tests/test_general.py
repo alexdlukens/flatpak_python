@@ -2,9 +2,9 @@ import datetime
 from typing import Generator
 
 import pytest
-from openapi_client.models.app_of_the_day import AppOfTheDay
-from openapi_client.models.app_of_the_week import AppOfTheWeek
-from openapi_client.models.apps_of_the_week import AppsOfTheWeek
+from flathub_python_api.models.app_of_the_day import AppOfTheDay
+from flathub_python_api.models.app_of_the_week import AppOfTheWeek
+from flathub_python_api.models.apps_of_the_week import AppsOfTheWeek
 
 from flatpak_python.client import FlatpakPythonClient
 

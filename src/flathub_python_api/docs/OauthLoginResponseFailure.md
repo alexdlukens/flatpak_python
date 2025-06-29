@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.oauth_login_response_failure import OauthLoginResponseFailure
+from flathub_python_api.models.oauth_login_response_failure import OauthLoginResponseFailure
 
 # TODO update the JSON string below
 json = "{}"

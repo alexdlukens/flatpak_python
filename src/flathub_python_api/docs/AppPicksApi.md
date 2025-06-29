@@ -1,4 +1,4 @@
-# openapi_client.AppPicksApi
+# flathub_python_api.AppPicksApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -19,22 +19,22 @@ Get App Of The Day
 
 
 ```python
-import openapi_client
-from openapi_client.models.app_of_the_day import AppOfTheDay
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.app_of_the_day import AppOfTheDay
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppPicksApi(api_client)
+    api_instance = flathub_python_api.AppPicksApi(api_client)
     var_date = '2013-10-20' # date | 
 
     try:
@@ -88,22 +88,22 @@ Returns apps of the week
 
 
 ```python
-import openapi_client
-from openapi_client.models.apps_of_the_week import AppsOfTheWeek
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.apps_of_the_week import AppsOfTheWeek
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppPicksApi(api_client)
+    api_instance = flathub_python_api.AppPicksApi(api_client)
     var_date = '2013-10-20' # date | 
 
     try:
@@ -157,23 +157,23 @@ Sets an app of the day
 
 
 ```python
-import openapi_client
-from openapi_client.models.app_of_the_day import AppOfTheDay
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.app_of_the_day import AppOfTheDay
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppPicksApi(api_client)
-    app_of_the_day = openapi_client.AppOfTheDay() # AppOfTheDay | 
+    api_instance = flathub_python_api.AppPicksApi(api_client)
+    app_of_the_day = flathub_python_api.AppOfTheDay() # AppOfTheDay | 
 
     try:
         # Set App Of The Day
@@ -226,23 +226,23 @@ Sets an app of the week
 
 
 ```python
-import openapi_client
-from openapi_client.models.upsert_app_of_the_week import UpsertAppOfTheWeek
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.upsert_app_of_the_week import UpsertAppOfTheWeek
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AppPicksApi(api_client)
-    upsert_app_of_the_week = openapi_client.UpsertAppOfTheWeek() # UpsertAppOfTheWeek | 
+    api_instance = flathub_python_api.AppPicksApi(api_client)
+    upsert_app_of_the_week = flathub_python_api.UpsertAppOfTheWeek() # UpsertAppOfTheWeek | 
 
     try:
         # Set App Of The Week

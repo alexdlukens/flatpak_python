@@ -1,4 +1,4 @@
-# openapi_client.ModerationApi
+# flathub_python_api.ModerationApi
 
 All URIs are relative to *https://flathub.org/api/v2*
 
@@ -21,22 +21,22 @@ Get a list of moderation requests for an app.
 
 
 ```python
-import openapi_client
-from openapi_client.models.moderation_app import ModerationApp
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.moderation_app import ModerationApp
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ModerationApi(api_client)
+    api_instance = flathub_python_api.ModerationApi(api_client)
     app_id = 'app_id_example' # str | 
     include_outdated = False # bool |  (optional) (default to False)
     include_handled = False # bool |  (optional) (default to False)
@@ -98,22 +98,22 @@ Get a list of apps with unhandled moderation requests.
 
 
 ```python
-import openapi_client
-from openapi_client.models.moderation_apps_response import ModerationAppsResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.moderation_apps_response import ModerationAppsResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ModerationApi(api_client)
+    api_instance = flathub_python_api.ModerationApi(api_client)
     new_submissions = True # bool |  (optional)
     show_handled = False # bool |  (optional) (default to False)
     limit = 100 # int |  (optional) (default to 100)
@@ -174,25 +174,25 @@ marked as successful in flat-manager.
 
 
 ```python
-import openapi_client
-from openapi_client.models.review import Review
-from openapi_client.models.review_response import ReviewResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.review import Review
+from flathub_python_api.models.review_response import ReviewResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ModerationApi(api_client)
+    api_instance = flathub_python_api.ModerationApi(api_client)
     id = 56 # int | 
-    review = openapi_client.Review() # Review | 
+    review = flathub_python_api.Review() # Review | 
 
     try:
         # Submit Review
@@ -245,15 +245,15 @@ Submit Review Request
 * Bearer Authentication (HTTPBearer):
 
 ```python
-import openapi_client
-from openapi_client.models.review_request import ReviewRequest
-from openapi_client.models.review_request_response import ReviewRequestResponse
-from openapi_client.rest import ApiException
+import flathub_python_api
+from flathub_python_api.models.review_request import ReviewRequest
+from flathub_python_api.models.review_request_response import ReviewRequestResponse
+from flathub_python_api.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://flathub.org/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     host = "https://flathub.org/api/v2"
 )
 
@@ -263,15 +263,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: HTTPBearer
-configuration = openapi_client.Configuration(
+configuration = flathub_python_api.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with flathub_python_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ModerationApi(api_client)
-    review_request = openapi_client.ReviewRequest() # ReviewRequest | 
+    api_instance = flathub_python_api.ModerationApi(api_client)
+    review_request = flathub_python_api.ReviewRequest() # ReviewRequest | 
 
     try:
         # Submit Review Request
