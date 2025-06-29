@@ -3,6 +3,8 @@ from typing import Generator
 
 import pytest
 from openapi_client.models.app_of_the_day import AppOfTheDay
+from openapi_client.models.app_of_the_week import AppOfTheWeek
+from openapi_client.models.apps_of_the_week import AppsOfTheWeek
 
 from flatpak_python.client import FlatpakPythonClient
 
@@ -41,3 +43,32 @@ def test_app_of_the_day(client_fixture: FlatpakPythonClient):
     assert isinstance(app_of_the_day, AppOfTheDay)
     assert app_of_the_day.day == datetime.date(2023, 10, 1)
     assert app_of_the_day.app_id == "tv.kodi.Kodi"
+
+
+def test_app_of_the_week(client_fixture: FlatpakPythonClient):
+    """
+    Test the app of the week method of the FlatpakPythonClient.
+    """
+    apps_of_the_week = client_fixture.app_picks_api.get_apps_of_the_week()
+    assert apps_of_the_week is not None, "Expected apps of the week to be returned."
+
+    assert isinstance(apps_of_the_week, AppsOfTheWeek)
+
+    apps_of_the_week = client_fixture.app_picks_api.get_apps_of_the_week("2025-01-01")
+    assert apps_of_the_week is not None, (
+        "Expected apps of the week for specific date to be returned."
+    )
+    assert isinstance(apps_of_the_week, AppsOfTheWeek)
+    assert apps_of_the_week.apps is not None, (
+        "Expected apps of the week to contain a list of AppOfTheWeek objects."
+    )
+    assert len(apps_of_the_week.apps) > 0, (
+        "Expected apps of the week to contain at least one app."
+    )
+    assert all(isinstance(app, AppOfTheWeek) for app in apps_of_the_week.apps), (
+        "Expected all items in apps of the week to be instances of AppOfTheWeek."
+    )
+
+    assert apps_of_the_week.apps[0].app_id == "de.schmidhuberj.Flare", (
+        "Expected the first app of the week to be 'de.schmidhuberj.Flare'."
+    )
