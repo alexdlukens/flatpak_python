@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.build_notification_request import BuildNotificationRequest
+from flathub_python_api.models.build_notification_request import BuildNotificationRequest
 
 class TestBuildNotificationRequest(unittest.TestCase):
     """BuildNotificationRequest unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.pricing_info import PricingInfo
+from flathub_python_api.models.pricing_info import PricingInfo
 
 class TestPricingInfo(unittest.TestCase):
     """PricingInfo unit test stubs"""

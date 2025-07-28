@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.healthcheck_api import HealthcheckApi
+from flathub_python_api.api.healthcheck_api import HealthcheckApi
 
 
 class TestHealthcheckApi(unittest.TestCase):

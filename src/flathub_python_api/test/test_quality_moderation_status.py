@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.quality_moderation_status import QualityModerationStatus
+from flathub_python_api.models.quality_moderation_status import QualityModerationStatus
 
 class TestQualityModerationStatus(unittest.TestCase):
     """QualityModerationStatus unit test stubs"""

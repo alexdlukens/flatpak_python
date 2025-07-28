@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.transaction_summary import TransactionSummary
+from flathub_python_api.models.transaction_summary import TransactionSummary
 
 class TestTransactionSummary(unittest.TestCase):
     """TransactionSummary unit test stubs"""

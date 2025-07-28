@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.github_repository_result import GithubRepositoryResult
+from flathub_python_api.models.github_repository_result import GithubRepositoryResult
 
 class TestGithubRepositoryResult(unittest.TestCase):
     """GithubRepositoryResult unit test stubs"""

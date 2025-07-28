@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.apps_of_the_week import AppsOfTheWeek
+from flathub_python_api.models.apps_of_the_week import AppsOfTheWeek
 
 class TestAppsOfTheWeek(unittest.TestCase):
     """AppsOfTheWeek unit test stubs"""
@@ -36,7 +36,7 @@ class TestAppsOfTheWeek(unittest.TestCase):
         if include_optional:
             return AppsOfTheWeek(
                 apps = [
-                    openapi_client.models.app_of_the_week.AppOfTheWeek(
+                    flathub_python_api.models.app_of_the_week.AppOfTheWeek(
                         app_id = '', 
                         position = 56, 
                         is_fullscreen = True, )
@@ -45,7 +45,7 @@ class TestAppsOfTheWeek(unittest.TestCase):
         else:
             return AppsOfTheWeek(
                 apps = [
-                    openapi_client.models.app_of_the_week.AppOfTheWeek(
+                    flathub_python_api.models.app_of_the_week.AppOfTheWeek(
                         app_id = '', 
                         position = 56, 
                         is_fullscreen = True, )

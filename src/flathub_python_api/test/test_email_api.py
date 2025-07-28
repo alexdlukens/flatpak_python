@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.email_api import EmailApi
+from flathub_python_api.api.email_api import EmailApi
 
 
 class TestEmailApi(unittest.TestCase):

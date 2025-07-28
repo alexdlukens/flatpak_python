@@ -17,18 +17,22 @@ import pprint
 import re  # noqa: F401
 import json
 
-from pydantic import BaseModel, ConfigDict, StrictStr
+from pydantic import BaseModel, ConfigDict, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List
 from typing import Optional, Set
 from typing_extensions import Self
 
-class OauthLoginResponseSuccess(BaseModel):
+class StatsResultApp(BaseModel):
     """
-    OauthLoginResponseSuccess
+    StatsResultApp
     """ # noqa: E501
-    code: StrictStr
-    state: StrictStr
-    __properties: ClassVar[List[str]] = ["code", "state"]
+    installs_total: StrictInt
+    installs_per_day: Dict[str, StrictInt]
+    installs_per_country: Dict[str, StrictInt]
+    installs_last_month: StrictInt
+    installs_last_7_days: StrictInt
+    id: StrictStr
+    __properties: ClassVar[List[str]] = ["installs_total", "installs_per_day", "installs_per_country", "installs_last_month", "installs_last_7_days", "id"]
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -48,7 +52,7 @@ class OauthLoginResponseSuccess(BaseModel):
 
     @classmethod
     def from_json(cls, json_str: str) -> Optional[Self]:
-        """Create an instance of OauthLoginResponseSuccess from a JSON string"""
+        """Create an instance of StatsResultApp from a JSON string"""
         return cls.from_dict(json.loads(json_str))
 
     def to_dict(self) -> Dict[str, Any]:
@@ -73,7 +77,7 @@ class OauthLoginResponseSuccess(BaseModel):
 
     @classmethod
     def from_dict(cls, obj: Optional[Dict[str, Any]]) -> Optional[Self]:
-        """Create an instance of OauthLoginResponseSuccess from a dict"""
+        """Create an instance of StatsResultApp from a dict"""
         if obj is None:
             return None
 
@@ -81,8 +85,12 @@ class OauthLoginResponseSuccess(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
-            "code": obj.get("code"),
-            "state": obj.get("state")
+            "installs_total": obj.get("installs_total"),
+            "installs_per_day": obj.get("installs_per_day"),
+            "installs_per_country": obj.get("installs_per_country"),
+            "installs_last_month": obj.get("installs_last_month"),
+            "installs_last_7_days": obj.get("installs_last_7_days"),
+            "id": obj.get("id")
         })
         return _obj
 

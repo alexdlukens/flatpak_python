@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.available_login_method_status import AvailableLoginMethodStatus
+from flathub_python_api.models.available_login_method_status import AvailableLoginMethodStatus
 
 class TestAvailableLoginMethodStatus(unittest.TestCase):
     """AvailableLoginMethodStatus unit test stubs"""

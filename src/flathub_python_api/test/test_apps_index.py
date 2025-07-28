@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.apps_index import AppsIndex
+from flathub_python_api.models.apps_index import AppsIndex
 
 class TestAppsIndex(unittest.TestCase):
     """AppsIndex unit test stubs"""

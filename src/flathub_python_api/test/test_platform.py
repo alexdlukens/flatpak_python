@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.platform import Platform
+from flathub_python_api.models.platform import Platform
 
 class TestPlatform(unittest.TestCase):
     """Platform unit test stubs"""

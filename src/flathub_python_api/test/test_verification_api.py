@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.verification_api import VerificationApi
+from flathub_python_api.api.verification_api import VerificationApi
 
 
 class TestVerificationApi(unittest.TestCase):

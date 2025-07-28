@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.moderation_request_type import ModerationRequestType
+from flathub_python_api.models.moderation_request_type import ModerationRequestType
 
 class TestModerationRequestType(unittest.TestCase):
     """ModerationRequestType unit test stubs"""

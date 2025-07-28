@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.login_provider import LoginProvider
+from flathub_python_api.models.login_provider import LoginProvider
 
 class TestLoginProvider(unittest.TestCase):
     """LoginProvider unit test stubs"""

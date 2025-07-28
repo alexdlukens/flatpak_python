@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.token_list import TokenList
+from flathub_python_api.models.token_list import TokenList
 
 class TestTokenList(unittest.TestCase):
     """TokenList unit test stubs"""
@@ -38,7 +38,7 @@ class TestTokenList(unittest.TestCase):
                 status = '',
                 total = 56,
                 tokens = [
-                    openapi_client.models.token_model.TokenModel(
+                    flathub_python_api.models.token_model.TokenModel(
                         id = '', 
                         state = 'unredeemed', 
                         name = '', 
@@ -52,7 +52,7 @@ class TestTokenList(unittest.TestCase):
                 status = '',
                 total = 56,
                 tokens = [
-                    openapi_client.models.token_model.TokenModel(
+                    flathub_python_api.models.token_model.TokenModel(
                         id = '', 
                         state = 'unredeemed', 
                         name = '', 

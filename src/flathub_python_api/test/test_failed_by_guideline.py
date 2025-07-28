@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.failed_by_guideline import FailedByGuideline
+from flathub_python_api.models.failed_by_guideline import FailedByGuideline
 
 class TestFailedByGuideline(unittest.TestCase):
     """FailedByGuideline unit test stubs"""

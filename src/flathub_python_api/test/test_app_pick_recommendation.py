@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.app_pick_recommendation import AppPickRecommendation
+from flathub_python_api.models.app_pick_recommendation import AppPickRecommendation
 
 class TestAppPickRecommendation(unittest.TestCase):
     """AppPickRecommendation unit test stubs"""

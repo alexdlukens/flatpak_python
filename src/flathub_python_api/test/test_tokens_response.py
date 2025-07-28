@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tokens_response import TokensResponse
+from flathub_python_api.models.tokens_response import TokensResponse
 
 class TestTokensResponse(unittest.TestCase):
     """TokensResponse unit test stubs"""
@@ -36,7 +36,7 @@ class TestTokensResponse(unittest.TestCase):
         if include_optional:
             return TokensResponse(
                 tokens = [
-                    openapi_client.models.token_response.TokenResponse(
+                    flathub_python_api.models.token_response.TokenResponse(
                         id = 56, 
                         comment = '', 
                         app_id = '', 
@@ -56,7 +56,7 @@ class TestTokensResponse(unittest.TestCase):
         else:
             return TokensResponse(
                 tokens = [
-                    openapi_client.models.token_response.TokenResponse(
+                    flathub_python_api.models.token_response.TokenResponse(
                         id = 56, 
                         comment = '', 
                         app_id = '', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.collection_api import CollectionApi
+from flathub_python_api.api.collection_api import CollectionApi
 
 
 class TestCollectionApi(unittest.TestCase):

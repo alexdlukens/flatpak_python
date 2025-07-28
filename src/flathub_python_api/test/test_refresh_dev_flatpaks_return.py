@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.refresh_dev_flatpaks_return import RefreshDevFlatpaksReturn
+from flathub_python_api.models.refresh_dev_flatpaks_return import RefreshDevFlatpaksReturn
 
 class TestRefreshDevFlatpaksReturn(unittest.TestCase):
     """RefreshDevFlatpaksReturn unit test stubs"""

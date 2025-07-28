@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.vending_redirect import VendingRedirect
+from flathub_python_api.models.vending_redirect import VendingRedirect
 
 class TestVendingRedirect(unittest.TestCase):
     """VendingRedirect unit test stubs"""

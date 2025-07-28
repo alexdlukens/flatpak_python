@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.stats_result_category_totals import StatsResultCategoryTotals
+from flathub_python_api.models.stats_result_category_totals import StatsResultCategoryTotals
 
 class TestStatsResultCategoryTotals(unittest.TestCase):
     """StatsResultCategoryTotals unit test stubs"""

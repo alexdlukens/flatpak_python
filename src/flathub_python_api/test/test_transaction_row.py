@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.transaction_row import TransactionRow
+from flathub_python_api.models.transaction_row import TransactionRow
 
 class TestTransactionRow(unittest.TestCase):
     """TransactionRow unit test stubs"""

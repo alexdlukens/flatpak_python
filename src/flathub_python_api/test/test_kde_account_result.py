@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.kde_account_result import KdeAccountResult
+from flathub_python_api.models.kde_account_result import KdeAccountResult
 
 class TestKdeAccountResult(unittest.TestCase):
     """KdeAccountResult unit test stubs"""

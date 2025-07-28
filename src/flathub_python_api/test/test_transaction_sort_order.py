@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.transaction_sort_order import TransactionSortOrder
+from flathub_python_api.models.transaction_sort_order import TransactionSortOrder
 
 class TestTransactionSortOrder(unittest.TestCase):
     """TransactionSortOrder unit test stubs"""

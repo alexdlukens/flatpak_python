@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.pagination import Pagination
+from flathub_python_api.models.pagination import Pagination
 
 class TestPagination(unittest.TestCase):
     """Pagination unit test stubs"""

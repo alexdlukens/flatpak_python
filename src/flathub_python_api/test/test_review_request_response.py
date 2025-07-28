@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.review_request_response import ReviewRequestResponse
+from flathub_python_api.models.review_request_response import ReviewRequestResponse
 
 class TestReviewRequestResponse(unittest.TestCase):
     """ReviewRequestResponse unit test stubs"""

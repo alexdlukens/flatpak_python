@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.user_result import UserResult
+from flathub_python_api.models.user_result import UserResult
 
 class TestUserResult(unittest.TestCase):
     """UserResult unit test stubs"""
@@ -43,17 +43,17 @@ class TestUserResult(unittest.TestCase):
                     ],
                 accepted_publisher_agreement_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'),
                 roles = [
-                    openapi_client.models.user_role_result.UserRoleResult(
+                    flathub_python_api.models.user_role_result.UserRoleResult(
                         name = '', 
                         has_role = True, )
                     ],
                 github_repos = [
-                    openapi_client.models.github_repository_result.GithubRepositoryResult(
+                    flathub_python_api.models.github_repository_result.GithubRepositoryResult(
                         id = 56, 
                         reponame = '', )
                     ],
                 owned_apps = [
-                    openapi_client.models.user_owned_app_result.UserOwnedAppResult(
+                    flathub_python_api.models.user_owned_app_result.UserOwnedAppResult(
                         app_id = '', 
                         created = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), )
                     ]
@@ -68,17 +68,17 @@ class TestUserResult(unittest.TestCase):
                     ],
                 accepted_publisher_agreement_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'),
                 roles = [
-                    openapi_client.models.user_role_result.UserRoleResult(
+                    flathub_python_api.models.user_role_result.UserRoleResult(
                         name = '', 
                         has_role = True, )
                     ],
                 github_repos = [
-                    openapi_client.models.github_repository_result.GithubRepositoryResult(
+                    flathub_python_api.models.github_repository_result.GithubRepositoryResult(
                         id = 56, 
                         reponame = '', )
                     ],
                 owned_apps = [
-                    openapi_client.models.user_owned_app_result.UserOwnedAppResult(
+                    flathub_python_api.models.user_owned_app_result.UserOwnedAppResult(
                         app_id = '', 
                         created = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), )
                     ],

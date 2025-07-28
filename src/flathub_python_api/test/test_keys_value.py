@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.keys_value import KeysValue
+from flathub_python_api.models.keys_value import KeysValue
 
 class TestKeysValue(unittest.TestCase):
     """KeysValue unit test stubs"""

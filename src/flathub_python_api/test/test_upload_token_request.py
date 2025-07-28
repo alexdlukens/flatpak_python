@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.upload_token_request import UploadTokenRequest
+from flathub_python_api.models.upload_token_request import UploadTokenRequest
 
 class TestUploadTokenRequest(unittest.TestCase):
     """UploadTokenRequest unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.stats_api import StatsApi
+from flathub_python_api.api.stats_api import StatsApi
 
 
 class TestStatsApi(unittest.TestCase):

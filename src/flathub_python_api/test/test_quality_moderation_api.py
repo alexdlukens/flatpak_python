@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.quality_moderation_api import QualityModerationApi
+from flathub_python_api.api.quality_moderation_api import QualityModerationApi
 
 
 class TestQualityModerationApi(unittest.TestCase):

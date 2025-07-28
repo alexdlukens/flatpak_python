@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.invite_status import InviteStatus
+from flathub_python_api.models.invite_status import InviteStatus
 
 class TestInviteStatus(unittest.TestCase):
     """InviteStatus unit test stubs"""

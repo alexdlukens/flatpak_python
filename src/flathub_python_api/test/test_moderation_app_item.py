@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.moderation_app_item import ModerationAppItem
+from flathub_python_api.models.moderation_app_item import ModerationAppItem
 
 class TestModerationAppItem(unittest.TestCase):
     """ModerationAppItem unit test stubs"""

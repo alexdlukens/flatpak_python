@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.gitlab_account_result import GitlabAccountResult
+from flathub_python_api.models.gitlab_account_result import GitlabAccountResult
 
 class TestGitlabAccountResult(unittest.TestCase):
     """GitlabAccountResult unit test stubs"""

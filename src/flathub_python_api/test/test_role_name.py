@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.role_name import RoleName
+from flathub_python_api.models.role_name import RoleName
 
 class TestRoleName(unittest.TestCase):
     """RoleName unit test stubs"""

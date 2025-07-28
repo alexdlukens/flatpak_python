@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.user_info import UserInfo
+from flathub_python_api.models.user_info import UserInfo
 
 class TestUserInfo(unittest.TestCase):
     """UserInfo unit test stubs"""
@@ -50,14 +50,14 @@ class TestUserInfo(unittest.TestCase):
                     ],
                 invite_code = '',
                 accepted_publisher_agreement_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'),
-                default_account = openapi_client.models.auth_info.AuthInfo(
+                default_account = flathub_python_api.models.auth_info.AuthInfo(
                     login = '', 
                     avatar = '', ),
-                auths = openapi_client.models.auths.Auths(
-                    github = openapi_client.models.auth_info.AuthInfo(
+                auths = flathub_python_api.models.auths.Auths(
+                    github = flathub_python_api.models.auth_info.AuthInfo(
                         login = '', 
                         avatar = '', ), 
-                    gitlab = openapi_client.models.auth_info.AuthInfo(
+                    gitlab = flathub_python_api.models.auth_info.AuthInfo(
                         login = '', 
                         avatar = '', ), 
                     gnome = , 
@@ -67,14 +67,14 @@ class TestUserInfo(unittest.TestCase):
             return UserInfo(
                 invite_code = '',
                 accepted_publisher_agreement_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'),
-                default_account = openapi_client.models.auth_info.AuthInfo(
+                default_account = flathub_python_api.models.auth_info.AuthInfo(
                     login = '', 
                     avatar = '', ),
-                auths = openapi_client.models.auths.Auths(
-                    github = openapi_client.models.auth_info.AuthInfo(
+                auths = flathub_python_api.models.auths.Auths(
+                    github = flathub_python_api.models.auth_info.AuthInfo(
                         login = '', 
                         avatar = '', ), 
-                    gitlab = openapi_client.models.auth_info.AuthInfo(
+                    gitlab = flathub_python_api.models.auth_info.AuthInfo(
                         login = '', 
                         avatar = '', ), 
                     gnome = , 

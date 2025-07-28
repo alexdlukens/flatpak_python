@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.nascent_transaction_summary import NascentTransactionSummary
+from flathub_python_api.models.nascent_transaction_summary import NascentTransactionSummary
 
 class TestNascentTransactionSummary(unittest.TestCase):
     """NascentTransactionSummary unit test stubs"""

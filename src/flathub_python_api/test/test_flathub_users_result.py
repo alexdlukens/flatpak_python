@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.flathub_users_result import FlathubUsersResult
+from flathub_python_api.models.flathub_users_result import FlathubUsersResult
 
 class TestFlathubUsersResult(unittest.TestCase):
     """FlathubUsersResult unit test stubs"""
@@ -36,7 +36,7 @@ class TestFlathubUsersResult(unittest.TestCase):
         if include_optional:
             return FlathubUsersResult(
                 users = [
-                    openapi_client.models.user_result.UserResult(
+                    flathub_python_api.models.user_result.UserResult(
                         id = 56, 
                         display_name = '', 
                         default_account = null, 
@@ -45,22 +45,22 @@ class TestFlathubUsersResult(unittest.TestCase):
                             ], 
                         accepted_publisher_agreement_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), 
                         roles = [
-                            openapi_client.models.user_role_result.UserRoleResult(
+                            flathub_python_api.models.user_role_result.UserRoleResult(
                                 name = '', 
                                 has_role = True, )
                             ], 
                         github_repos = [
-                            openapi_client.models.github_repository_result.GithubRepositoryResult(
+                            flathub_python_api.models.github_repository_result.GithubRepositoryResult(
                                 id = 56, 
                                 reponame = '', )
                             ], 
                         owned_apps = [
-                            openapi_client.models.user_owned_app_result.UserOwnedAppResult(
+                            flathub_python_api.models.user_owned_app_result.UserOwnedAppResult(
                                 app_id = '', 
                                 created = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), )
                             ], )
                     ],
-                pagination = openapi_client.models.pagination.Pagination(
+                pagination = flathub_python_api.models.pagination.Pagination(
                     page = 56, 
                     page_size = 56, 
                     total = 56, 
@@ -69,7 +69,7 @@ class TestFlathubUsersResult(unittest.TestCase):
         else:
             return FlathubUsersResult(
                 users = [
-                    openapi_client.models.user_result.UserResult(
+                    flathub_python_api.models.user_result.UserResult(
                         id = 56, 
                         display_name = '', 
                         default_account = null, 
@@ -78,22 +78,22 @@ class TestFlathubUsersResult(unittest.TestCase):
                             ], 
                         accepted_publisher_agreement_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), 
                         roles = [
-                            openapi_client.models.user_role_result.UserRoleResult(
+                            flathub_python_api.models.user_role_result.UserRoleResult(
                                 name = '', 
                                 has_role = True, )
                             ], 
                         github_repos = [
-                            openapi_client.models.github_repository_result.GithubRepositoryResult(
+                            flathub_python_api.models.github_repository_result.GithubRepositoryResult(
                                 id = 56, 
                                 reponame = '', )
                             ], 
                         owned_apps = [
-                            openapi_client.models.user_owned_app_result.UserOwnedAppResult(
+                            flathub_python_api.models.user_owned_app_result.UserOwnedAppResult(
                                 app_id = '', 
                                 created = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), )
                             ], )
                     ],
-                pagination = openapi_client.models.pagination.Pagination(
+                pagination = flathub_python_api.models.pagination.Pagination(
                     page = 56, 
                     page_size = 56, 
                     total = 56, 

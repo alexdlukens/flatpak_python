@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.login_method import LoginMethod
+from flathub_python_api.models.login_method import LoginMethod
 
 class TestLoginMethod(unittest.TestCase):
     """LoginMethod unit test stubs"""

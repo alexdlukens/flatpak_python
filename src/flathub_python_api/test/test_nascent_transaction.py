@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.nascent_transaction import NascentTransaction
+from flathub_python_api.models.nascent_transaction import NascentTransaction
 
 class TestNascentTransaction(unittest.TestCase):
     """NascentTransaction unit test stubs"""
@@ -35,12 +35,12 @@ class TestNascentTransaction(unittest.TestCase):
         model = NascentTransaction()
         if include_optional:
             return NascentTransaction(
-                summary = openapi_client.models.nascent_transaction_summary.NascentTransactionSummary(
+                summary = flathub_python_api.models.nascent_transaction_summary.NascentTransactionSummary(
                     value = 56, 
                     currency = '', 
                     kind = 'donation', ),
                 details = [
-                    openapi_client.models.transaction_row.TransactionRow(
+                    flathub_python_api.models.transaction_row.TransactionRow(
                         recipient = '', 
                         amount = 56, 
                         currency = '', 
@@ -49,12 +49,12 @@ class TestNascentTransaction(unittest.TestCase):
             )
         else:
             return NascentTransaction(
-                summary = openapi_client.models.nascent_transaction_summary.NascentTransactionSummary(
+                summary = flathub_python_api.models.nascent_transaction_summary.NascentTransactionSummary(
                     value = 56, 
                     currency = '', 
                     kind = 'donation', ),
                 details = [
-                    openapi_client.models.transaction_row.TransactionRow(
+                    flathub_python_api.models.transaction_row.TransactionRow(
                         recipient = '', 
                         amount = 56, 
                         currency = '', 

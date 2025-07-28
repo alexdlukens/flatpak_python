@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.sort_by import SortBy
+from flathub_python_api.models.sort_by import SortBy
 
 class TestSortBy(unittest.TestCase):
     """SortBy unit test stubs"""

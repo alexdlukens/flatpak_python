@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.review import Review
+from flathub_python_api.models.review import Review
 
 class TestReview(unittest.TestCase):
     """Review unit test stubs"""

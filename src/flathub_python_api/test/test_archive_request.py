@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.archive_request import ArchiveRequest
+from flathub_python_api.models.archive_request import ArchiveRequest
 
 class TestArchiveRequest(unittest.TestCase):
     """ArchiveRequest unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.proposed_payment import ProposedPayment
+from flathub_python_api.models.proposed_payment import ProposedPayment
 
 class TestProposedPayment(unittest.TestCase):
     """ProposedPayment unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.storefront_info import StorefrontInfo
+from flathub_python_api.models.storefront_info import StorefrontInfo
 
 class TestStorefrontInfo(unittest.TestCase):
     """StorefrontInfo unit test stubs"""
@@ -35,7 +35,7 @@ class TestStorefrontInfo(unittest.TestCase):
         model = StorefrontInfo()
         if include_optional:
             return StorefrontInfo(
-                verification = openapi_client.models.verification_status.VerificationStatus(
+                verification = flathub_python_api.models.verification_status.VerificationStatus(
                     verified = True, 
                     timestamp = '', 
                     method = 'none', 
@@ -44,7 +44,7 @@ class TestStorefrontInfo(unittest.TestCase):
                     login_name = '', 
                     login_is_organization = True, 
                     detail = '', ),
-                pricing = openapi_client.models.pricing_info.PricingInfo(
+                pricing = flathub_python_api.models.pricing_info.PricingInfo(
                     recommended_donation = 56, 
                     minimum_payment = 56, ),
                 is_free_software = True

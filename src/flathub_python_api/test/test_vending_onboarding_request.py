@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.vending_onboarding_request import VendingOnboardingRequest
+from flathub_python_api.models.vending_onboarding_request import VendingOnboardingRequest
 
 class TestVendingOnboardingRequest(unittest.TestCase):
     """VendingOnboardingRequest unit test stubs"""

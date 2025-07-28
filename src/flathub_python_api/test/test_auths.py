@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.auths import Auths
+from flathub_python_api.models.auths import Auths
 
 class TestAuths(unittest.TestCase):
     """Auths unit test stubs"""
@@ -35,16 +35,16 @@ class TestAuths(unittest.TestCase):
         model = Auths()
         if include_optional:
             return Auths(
-                github = openapi_client.models.auth_info.AuthInfo(
+                github = flathub_python_api.models.auth_info.AuthInfo(
                     login = '', 
                     avatar = '', ),
-                gitlab = openapi_client.models.auth_info.AuthInfo(
+                gitlab = flathub_python_api.models.auth_info.AuthInfo(
                     login = '', 
                     avatar = '', ),
-                gnome = openapi_client.models.auth_info.AuthInfo(
+                gnome = flathub_python_api.models.auth_info.AuthInfo(
                     login = '', 
                     avatar = '', ),
-                kde = openapi_client.models.auth_info.AuthInfo(
+                kde = flathub_python_api.models.auth_info.AuthInfo(
                     login = '', 
                     avatar = '', )
             )

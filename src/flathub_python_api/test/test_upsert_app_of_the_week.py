@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.upsert_app_of_the_week import UpsertAppOfTheWeek
+from flathub_python_api.models.upsert_app_of_the_week import UpsertAppOfTheWeek
 
 class TestUpsertAppOfTheWeek(unittest.TestCase):
     """UpsertAppOfTheWeek unit test stubs"""

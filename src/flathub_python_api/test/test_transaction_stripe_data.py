@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.transaction_stripe_data import TransactionStripeData
+from flathub_python_api.models.transaction_stripe_data import TransactionStripeData
 
 class TestTransactionStripeData(unittest.TestCase):
     """TransactionStripeData unit test stubs"""
@@ -37,7 +37,7 @@ class TestTransactionStripeData(unittest.TestCase):
             return TransactionStripeData(
                 status = '',
                 client_secret = '',
-                card = openapi_client.models.payment_card_info.PaymentCardInfo(
+                card = flathub_python_api.models.payment_card_info.PaymentCardInfo(
                     id = '', 
                     brand = '', 
                     country = '', 

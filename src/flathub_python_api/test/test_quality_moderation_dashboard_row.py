@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.quality_moderation_dashboard_row import QualityModerationDashboardRow
+from flathub_python_api.models.quality_moderation_dashboard_row import QualityModerationDashboardRow
 
 class TestQualityModerationDashboardRow(unittest.TestCase):
     """QualityModerationDashboardRow unit test stubs"""
@@ -36,7 +36,7 @@ class TestQualityModerationDashboardRow(unittest.TestCase):
         if include_optional:
             return QualityModerationDashboardRow(
                 id = '',
-                quality_moderation_status = openapi_client.models.quality_moderation_status.QualityModerationStatus(
+                quality_moderation_status = flathub_python_api.models.quality_moderation_status.QualityModerationStatus(
                     passes = True, 
                     unrated = 56, 
                     passed = 56, 
@@ -49,7 +49,7 @@ class TestQualityModerationDashboardRow(unittest.TestCase):
         else:
             return QualityModerationDashboardRow(
                 id = '',
-                quality_moderation_status = openapi_client.models.quality_moderation_status.QualityModerationStatus(
+                quality_moderation_status = flathub_python_api.models.quality_moderation_status.QualityModerationStatus(
                     passes = True, 
                     unrated = 56, 
                     passed = 56, 

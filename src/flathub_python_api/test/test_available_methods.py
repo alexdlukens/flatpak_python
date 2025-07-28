@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.available_methods import AvailableMethods
+from flathub_python_api.models.available_methods import AvailableMethods
 
 class TestAvailableMethods(unittest.TestCase):
     """AvailableMethods unit test stubs"""
@@ -36,7 +36,7 @@ class TestAvailableMethods(unittest.TestCase):
         if include_optional:
             return AvailableMethods(
                 methods = [
-                    openapi_client.models.available_method.AvailableMethod(
+                    flathub_python_api.models.available_method.AvailableMethod(
                         method = 'website', 
                         website = '', 
                         website_token = '', 

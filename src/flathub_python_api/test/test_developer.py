@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.developer import Developer
+from flathub_python_api.models.developer import Developer
 
 class TestDeveloper(unittest.TestCase):
     """Developer unit test stubs"""

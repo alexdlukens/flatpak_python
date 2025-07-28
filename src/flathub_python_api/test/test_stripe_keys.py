@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.stripe_keys import StripeKeys
+from flathub_python_api.models.stripe_keys import StripeKeys
 
 class TestStripeKeys(unittest.TestCase):
     """StripeKeys unit test stubs"""

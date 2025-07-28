@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.auth_info import AuthInfo
+from flathub_python_api.models.auth_info import AuthInfo
 
 class TestAuthInfo(unittest.TestCase):
     """AuthInfo unit test stubs"""

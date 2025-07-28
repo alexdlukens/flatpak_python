@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.stats_result import StatsResult
+from flathub_python_api.models.stats_result import StatsResult
 
 class TestStatsResult(unittest.TestCase):
     """StatsResult unit test stubs"""
@@ -51,7 +51,7 @@ class TestStatsResult(unittest.TestCase):
                     'key' : 56
                     },
                 category_totals = [
-                    openapi_client.models.stats_result_category_totals.StatsResultCategoryTotals(
+                    flathub_python_api.models.stats_result_category_totals.StatsResultCategoryTotals(
                         category = '', 
                         count = 56, )
                     ]
@@ -74,7 +74,7 @@ class TestStatsResult(unittest.TestCase):
                     'key' : 56
                     },
                 category_totals = [
-                    openapi_client.models.stats_result_category_totals.StatsResultCategoryTotals(
+                    flathub_python_api.models.stats_result_category_totals.StatsResultCategoryTotals(
                         category = '', 
                         count = 56, )
                     ],

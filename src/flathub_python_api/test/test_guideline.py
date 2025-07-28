@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.guideline import Guideline
+from flathub_python_api.models.guideline import Guideline
 
 class TestGuideline(unittest.TestCase):
     """Guideline unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.data import Data
+from flathub_python_api.models.data import Data
 
 class TestData(unittest.TestCase):
     """Data unit test stubs"""

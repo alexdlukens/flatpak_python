@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.compat_api import CompatApi
+from flathub_python_api.api.compat_api import CompatApi
 
 
 class TestCompatApi(unittest.TestCase):

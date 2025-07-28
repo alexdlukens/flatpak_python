@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.token_response import TokenResponse
+from flathub_python_api.models.token_response import TokenResponse
 
 class TestTokenResponse(unittest.TestCase):
     """TokenResponse unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.user_role_result import UserRoleResult
+from flathub_python_api.models.user_role_result import UserRoleResult
 
 class TestUserRoleResult(unittest.TestCase):
     """UserRoleResult unit test stubs"""

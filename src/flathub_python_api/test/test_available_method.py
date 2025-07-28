@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.available_method import AvailableMethod
+from flathub_python_api.models.available_method import AvailableMethod
 
 class TestAvailableMethod(unittest.TestCase):
     """AvailableMethod unit test stubs"""

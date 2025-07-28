@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.app_search_developers_response import AppSearchDevelopersResponse
+from flathub_python_api.models.app_search_developers_response import AppSearchDevelopersResponse
 
 class TestAppSearchDevelopersResponse(unittest.TestCase):
     """AppSearchDevelopersResponse unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.vending_config import VendingConfig
+from flathub_python_api.models.vending_config import VendingConfig
 
 class TestVendingConfig(unittest.TestCase):
     """VendingConfig unit test stubs"""
@@ -37,7 +37,7 @@ class TestVendingConfig(unittest.TestCase):
             return VendingConfig(
                 status = 'ok',
                 platforms = {
-                    'key' : openapi_client.models.platform.Platform(
+                    'key' : flathub_python_api.models.platform.Platform(
                         depends = '', 
                         aliases = [
                             ''
@@ -53,7 +53,7 @@ class TestVendingConfig(unittest.TestCase):
             return VendingConfig(
                 status = 'ok',
                 platforms = {
-                    'key' : openapi_client.models.platform.Platform(
+                    'key' : flathub_python_api.models.platform.Platform(
                         depends = '', 
                         aliases = [
                             ''

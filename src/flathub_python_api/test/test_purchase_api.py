@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.purchase_api import PurchaseApi
+from flathub_python_api.api.purchase_api import PurchaseApi
 
 
 class TestPurchaseApi(unittest.TestCase):

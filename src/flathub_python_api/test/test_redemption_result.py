@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.redemption_result import RedemptionResult
+from flathub_python_api.models.redemption_result import RedemptionResult
 
 class TestRedemptionResult(unittest.TestCase):
     """RedemptionResult unit test stubs"""

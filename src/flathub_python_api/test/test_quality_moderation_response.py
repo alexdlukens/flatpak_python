@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.quality_moderation_response import QualityModerationResponse
+from flathub_python_api.models.quality_moderation_response import QualityModerationResponse
 
 class TestQualityModerationResponse(unittest.TestCase):
     """QualityModerationResponse unit test stubs"""
@@ -36,9 +36,9 @@ class TestQualityModerationResponse(unittest.TestCase):
         if include_optional:
             return QualityModerationResponse(
                 guidelines = [
-                    openapi_client.models.quality_moderation_type.QualityModerationType(
+                    flathub_python_api.models.quality_moderation_type.QualityModerationType(
                         guideline_id = '', 
-                        guideline = openapi_client.models.guideline.Guideline(
+                        guideline = flathub_python_api.models.guideline.Guideline(
                             id = '', 
                             url = '', 
                             needed_to_pass_since = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), 
@@ -57,9 +57,9 @@ class TestQualityModerationResponse(unittest.TestCase):
         else:
             return QualityModerationResponse(
                 guidelines = [
-                    openapi_client.models.quality_moderation_type.QualityModerationType(
+                    flathub_python_api.models.quality_moderation_type.QualityModerationType(
                         guideline_id = '', 
-                        guideline = openapi_client.models.guideline.Guideline(
+                        guideline = flathub_python_api.models.guideline.Guideline(
                             id = '', 
                             url = '', 
                             needed_to_pass_since = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), 

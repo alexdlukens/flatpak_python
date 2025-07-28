@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_download_token_response import GetDownloadTokenResponse
+from flathub_python_api.models.get_download_token_response import GetDownloadTokenResponse
 
 class TestGetDownloadTokenResponse(unittest.TestCase):
     """GetDownloadTokenResponse unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.body_get_download_token_purchases_generate_download_token_post import BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost
+from flathub_python_api.models.body_get_download_token_purchases_generate_download_token_post import BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost
 
 class TestBodyGetDownloadTokenPurchasesGenerateDownloadTokenPost(unittest.TestCase):
     """BodyGetDownloadTokenPurchasesGenerateDownloadTokenPost unit test stubs"""

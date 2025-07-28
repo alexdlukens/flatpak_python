@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.default_account import DefaultAccount
+from flathub_python_api.models.default_account import DefaultAccount
 
 class TestDefaultAccount(unittest.TestCase):
     """DefaultAccount unit test stubs"""

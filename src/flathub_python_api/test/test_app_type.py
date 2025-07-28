@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.app_type import AppType
+from flathub_python_api.models.app_type import AppType
 
 class TestAppType(unittest.TestCase):
     """AppType unit test stubs"""

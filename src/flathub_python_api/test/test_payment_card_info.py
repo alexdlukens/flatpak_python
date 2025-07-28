@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.payment_card_info import PaymentCardInfo
+from flathub_python_api.models.payment_card_info import PaymentCardInfo
 
 class TestPaymentCardInfo(unittest.TestCase):
     """PaymentCardInfo unit test stubs"""

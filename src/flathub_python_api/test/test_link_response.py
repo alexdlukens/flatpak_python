@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.link_response import LinkResponse
+from flathub_python_api.models.link_response import LinkResponse
 
 class TestLinkResponse(unittest.TestCase):
     """LinkResponse unit test stubs"""

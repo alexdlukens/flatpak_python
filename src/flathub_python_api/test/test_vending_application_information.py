@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.vending_application_information import VendingApplicationInformation
+from flathub_python_api.models.vending_application_information import VendingApplicationInformation
 
 class TestVendingApplicationInformation(unittest.TestCase):
     """VendingApplicationInformation unit test stubs"""

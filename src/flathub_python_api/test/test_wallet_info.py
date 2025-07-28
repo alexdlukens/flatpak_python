@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.wallet_info import WalletInfo
+from flathub_python_api.models.wallet_info import WalletInfo
 
 class TestWalletInfo(unittest.TestCase):
     """WalletInfo unit test stubs"""
@@ -37,7 +37,7 @@ class TestWalletInfo(unittest.TestCase):
             return WalletInfo(
                 status = '',
                 cards = [
-                    openapi_client.models.payment_card_info.PaymentCardInfo(
+                    flathub_python_api.models.payment_card_info.PaymentCardInfo(
                         id = '', 
                         brand = '', 
                         country = '', 
@@ -50,7 +50,7 @@ class TestWalletInfo(unittest.TestCase):
             return WalletInfo(
                 status = '',
                 cards = [
-                    openapi_client.models.payment_card_info.PaymentCardInfo(
+                    flathub_python_api.models.payment_card_info.PaymentCardInfo(
                         id = '', 
                         brand = '', 
                         country = '', 

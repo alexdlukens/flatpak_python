@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.user_owned_app_result import UserOwnedAppResult
+from flathub_python_api.models.user_owned_app_result import UserOwnedAppResult
 
 class TestUserOwnedAppResult(unittest.TestCase):
     """UserOwnedAppResult unit test stubs"""

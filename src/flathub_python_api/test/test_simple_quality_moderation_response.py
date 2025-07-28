@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.simple_quality_moderation_response import SimpleQualityModerationResponse
+from flathub_python_api.models.simple_quality_moderation_response import SimpleQualityModerationResponse
 
 class TestSimpleQualityModerationResponse(unittest.TestCase):
     """SimpleQualityModerationResponse unit test stubs"""
@@ -38,7 +38,7 @@ class TestSimpleQualityModerationResponse(unittest.TestCase):
                 apps = [
                     ''
                     ],
-                pagination = openapi_client.models.pagination.Pagination(
+                pagination = flathub_python_api.models.pagination.Pagination(
                     page = 56, 
                     page_size = 56, 
                     total = 56, 
@@ -49,7 +49,7 @@ class TestSimpleQualityModerationResponse(unittest.TestCase):
                 apps = [
                     ''
                     ],
-                pagination = openapi_client.models.pagination.Pagination(
+                pagination = flathub_python_api.models.pagination.Pagination(
                     page = 56, 
                     page_size = 56, 
                     total = 56, 

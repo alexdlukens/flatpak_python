@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.feed_api import FeedApi
+from flathub_python_api.api.feed_api import FeedApi
 
 
 class TestFeedApi(unittest.TestCase):

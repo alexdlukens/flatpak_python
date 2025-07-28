@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.app_pick_recommendations_response import AppPickRecommendationsResponse
+from flathub_python_api.models.app_pick_recommendations_response import AppPickRecommendationsResponse
 
 class TestAppPickRecommendationsResponse(unittest.TestCase):
     """AppPickRecommendationsResponse unit test stubs"""
@@ -36,7 +36,7 @@ class TestAppPickRecommendationsResponse(unittest.TestCase):
         if include_optional:
             return AppPickRecommendationsResponse(
                 recommendations = [
-                    openapi_client.models.app_pick_recommendation.AppPickRecommendation(
+                    flathub_python_api.models.app_pick_recommendation.AppPickRecommendation(
                         app_id = '', 
                         number_of_times_app_of_the_week = 56, 
                         last_time_app_of_the_week = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 
@@ -47,7 +47,7 @@ class TestAppPickRecommendationsResponse(unittest.TestCase):
         else:
             return AppPickRecommendationsResponse(
                 recommendations = [
-                    openapi_client.models.app_pick_recommendation.AppPickRecommendation(
+                    flathub_python_api.models.app_pick_recommendation.AppPickRecommendation(
                         app_id = '', 
                         number_of_times_app_of_the_week = 56, 
                         last_time_app_of_the_week = datetime.datetime.strptime('1975-12-30', '%Y-%m-%d').date(), 

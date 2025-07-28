@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.main_category import MainCategory
+from flathub_python_api.models.main_category import MainCategory
 
 class TestMainCategory(unittest.TestCase):
     """MainCategory unit test stubs"""

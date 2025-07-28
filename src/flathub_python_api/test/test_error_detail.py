@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.error_detail import ErrorDetail
+from flathub_python_api.models.error_detail import ErrorDetail
 
 class TestErrorDetail(unittest.TestCase):
     """ErrorDetail unit test stubs"""

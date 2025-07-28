@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.favorite_app import FavoriteApp
+from flathub_python_api.models.favorite_app import FavoriteApp
 
 class TestFavoriteApp(unittest.TestCase):
     """FavoriteApp unit test stubs"""

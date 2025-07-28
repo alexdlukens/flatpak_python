@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.token_cancellation import TokenCancellation
+from flathub_python_api.models.token_cancellation import TokenCancellation
 
 class TestTokenCancellation(unittest.TestCase):
     """TokenCancellation unit test stubs"""

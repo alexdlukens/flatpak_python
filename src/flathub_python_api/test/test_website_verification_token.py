@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.website_verification_token import WebsiteVerificationToken
+from flathub_python_api.models.website_verification_token import WebsiteVerificationToken
 
 class TestWebsiteVerificationToken(unittest.TestCase):
     """WebsiteVerificationToken unit test stubs"""

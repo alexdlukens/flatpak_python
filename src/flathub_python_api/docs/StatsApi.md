@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **get_stats_for_app_stats_app_id_get**
-> object get_stats_for_app_stats_app_id_get(app_id, all=all, days=days)
+> StatsResultApp get_stats_for_app_stats_app_id_get(app_id, all=all, days=days)
 
 Get Stats For App
 
@@ -18,6 +18,7 @@ Get Stats For App
 
 ```python
 import flathub_python_api
+from flathub_python_api.models.stats_result_app import StatsResultApp
 from flathub_python_api.rest import ApiException
 from pprint import pprint
 
@@ -58,7 +59,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-**object**
+[**StatsResultApp**](StatsResultApp.md)
 
 ### Authorization
 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.verification_status import VerificationStatus
+from flathub_python_api.models.verification_status import VerificationStatus
 
 class TestVerificationStatus(unittest.TestCase):
     """VerificationStatus unit test stubs"""

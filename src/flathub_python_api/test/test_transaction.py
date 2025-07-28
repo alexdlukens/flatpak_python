@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.transaction import Transaction
+from flathub_python_api.models.transaction import Transaction
 
 class TestTransaction(unittest.TestCase):
     """Transaction unit test stubs"""
@@ -35,7 +35,7 @@ class TestTransaction(unittest.TestCase):
         model = Transaction()
         if include_optional:
             return Transaction(
-                summary = openapi_client.models.transaction_summary.TransactionSummary(
+                summary = flathub_python_api.models.transaction_summary.TransactionSummary(
                     id = '', 
                     value = 56, 
                     currency = '', 
@@ -44,7 +44,7 @@ class TestTransaction(unittest.TestCase):
                     reason = '', 
                     created = 56, 
                     updated = 56, ),
-                card = openapi_client.models.payment_card_info.PaymentCardInfo(
+                card = flathub_python_api.models.payment_card_info.PaymentCardInfo(
                     id = '', 
                     brand = '', 
                     country = '', 
@@ -52,7 +52,7 @@ class TestTransaction(unittest.TestCase):
                     exp_year = 56, 
                     last4 = '', ),
                 details = [
-                    openapi_client.models.transaction_row.TransactionRow(
+                    flathub_python_api.models.transaction_row.TransactionRow(
                         recipient = '', 
                         amount = 56, 
                         currency = '', 
@@ -62,7 +62,7 @@ class TestTransaction(unittest.TestCase):
             )
         else:
             return Transaction(
-                summary = openapi_client.models.transaction_summary.TransactionSummary(
+                summary = flathub_python_api.models.transaction_summary.TransactionSummary(
                     id = '', 
                     value = 56, 
                     currency = '', 
@@ -72,7 +72,7 @@ class TestTransaction(unittest.TestCase):
                     created = 56, 
                     updated = 56, ),
                 details = [
-                    openapi_client.models.transaction_row.TransactionRow(
+                    flathub_python_api.models.transaction_row.TransactionRow(
                         recipient = '', 
                         amount = 56, 
                         currency = '', 

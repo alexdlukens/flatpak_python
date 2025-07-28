@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.user_result_connected_accounts_inner import UserResultConnectedAccountsInner
+from flathub_python_api.models.user_result_connected_accounts_inner import UserResultConnectedAccountsInner
 
 class TestUserResultConnectedAccountsInner(unittest.TestCase):
     """UserResultConnectedAccountsInner unit test stubs"""

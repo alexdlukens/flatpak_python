@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.transaction_save_card import TransactionSaveCard
+from flathub_python_api.models.transaction_save_card import TransactionSaveCard
 
 class TestTransactionSaveCard(unittest.TestCase):
     """TransactionSaveCard unit test stubs"""

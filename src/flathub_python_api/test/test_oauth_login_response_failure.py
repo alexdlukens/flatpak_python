@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.oauth_login_response_failure import OauthLoginResponseFailure
+from flathub_python_api.models.oauth_login_response_failure import OauthLoginResponseFailure
 
 class TestOauthLoginResponseFailure(unittest.TestCase):
     """OauthLoginResponseFailure unit test stubs"""

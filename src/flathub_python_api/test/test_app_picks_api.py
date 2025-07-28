@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.app_picks_api import AppPicksApi
+from flathub_python_api.api.app_picks_api import AppPicksApi
 
 
 class TestAppPicksApi(unittest.TestCase):

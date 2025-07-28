@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.get_delete_user_result import GetDeleteUserResult
+from flathub_python_api.models.get_delete_user_result import GetDeleteUserResult
 
 class TestGetDeleteUserResult(unittest.TestCase):
     """GetDeleteUserResult unit test stubs"""

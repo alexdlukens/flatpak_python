@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.gnome_account_result import GnomeAccountResult
+from flathub_python_api.models.gnome_account_result import GnomeAccountResult
 
 class TestGnomeAccountResult(unittest.TestCase):
     """GnomeAccountResult unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.update_api import UpdateApi
+from flathub_python_api.api.update_api import UpdateApi
 
 
 class TestUpdateApi(unittest.TestCase):

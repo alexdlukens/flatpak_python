@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.check_purchases_response_success import CheckPurchasesResponseSuccess
+from flathub_python_api.models.check_purchases_response_success import CheckPurchasesResponseSuccess
 
 class TestCheckPurchasesResponseSuccess(unittest.TestCase):
     """CheckPurchasesResponseSuccess unit test stubs"""

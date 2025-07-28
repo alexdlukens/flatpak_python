@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_query import SearchQuery
+from flathub_python_api.models.search_query import SearchQuery
 
 class TestSearchQuery(unittest.TestCase):
     """SearchQuery unit test stubs"""
@@ -37,7 +37,7 @@ class TestSearchQuery(unittest.TestCase):
             return SearchQuery(
                 query = '',
                 filters = [
-                    openapi_client.models.filter.Filter(
+                    flathub_python_api.models.filter.Filter(
                         filter_type = '', 
                         value = '', )
                     ]

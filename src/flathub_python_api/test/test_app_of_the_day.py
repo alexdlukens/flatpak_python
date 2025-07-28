@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.app_of_the_day import AppOfTheDay
+from flathub_python_api.models.app_of_the_day import AppOfTheDay
 
 class TestAppOfTheDay(unittest.TestCase):
     """AppOfTheDay unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.vending_api import VendingApi
+from flathub_python_api.api.vending_api import VendingApi
 
 
 class TestVendingApi(unittest.TestCase):

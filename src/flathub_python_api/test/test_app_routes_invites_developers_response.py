@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.app_routes_invites_developers_response import AppRoutesInvitesDevelopersResponse
+from flathub_python_api.models.app_routes_invites_developers_response import AppRoutesInvitesDevelopersResponse
 
 class TestAppRoutesInvitesDevelopersResponse(unittest.TestCase):
     """AppRoutesInvitesDevelopersResponse unit test stubs"""
@@ -36,14 +36,14 @@ class TestAppRoutesInvitesDevelopersResponse(unittest.TestCase):
         if include_optional:
             return AppRoutesInvitesDevelopersResponse(
                 developers = [
-                    openapi_client.models.developer.Developer(
+                    flathub_python_api.models.developer.Developer(
                         id = 56, 
                         is_self = True, 
                         name = '', 
                         is_primary = True, )
                     ],
                 invites = [
-                    openapi_client.models.developer.Developer(
+                    flathub_python_api.models.developer.Developer(
                         id = 56, 
                         is_self = True, 
                         name = '', 
@@ -53,14 +53,14 @@ class TestAppRoutesInvitesDevelopersResponse(unittest.TestCase):
         else:
             return AppRoutesInvitesDevelopersResponse(
                 developers = [
-                    openapi_client.models.developer.Developer(
+                    flathub_python_api.models.developer.Developer(
                         id = 56, 
                         is_self = True, 
                         name = '', 
                         is_primary = True, )
                     ],
                 invites = [
-                    openapi_client.models.developer.Developer(
+                    flathub_python_api.models.developer.Developer(
                         id = 56, 
                         is_self = True, 
                         name = '', 

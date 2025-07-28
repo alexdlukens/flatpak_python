@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.verification_method import VerificationMethod
+from flathub_python_api.models.verification_method import VerificationMethod
 
 class TestVerificationMethod(unittest.TestCase):
     """VerificationMethod unit test stubs"""

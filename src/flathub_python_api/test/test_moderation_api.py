@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.moderation_api import ModerationApi
+from flathub_python_api.api.moderation_api import ModerationApi
 
 
 class TestModerationApi(unittest.TestCase):

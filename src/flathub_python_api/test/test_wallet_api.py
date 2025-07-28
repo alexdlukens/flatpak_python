@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.wallet_api import WalletApi
+from flathub_python_api.api.wallet_api import WalletApi
 
 
 class TestWalletApi(unittest.TestCase):

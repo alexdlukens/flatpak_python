@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.moderation_request_response import ModerationRequestResponse
+from flathub_python_api.models.moderation_request_response import ModerationRequestResponse
 
 class TestModerationRequestResponse(unittest.TestCase):
     """ModerationRequestResponse unit test stubs"""
@@ -42,7 +42,7 @@ class TestModerationRequestResponse(unittest.TestCase):
                 job_id = 56,
                 is_outdated = True,
                 request_type = 'appdata',
-                request_data = openapi_client.models.request_data.RequestData(
+                request_data = flathub_python_api.models.request_data.RequestData(
                     keys = {
                         'key' : null
                         }, 

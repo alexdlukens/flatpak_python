@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.permission import Permission
+from flathub_python_api.models.permission import Permission
 
 class TestPermission(unittest.TestCase):
     """Permission unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.upsert_quality_moderation import UpsertQualityModeration
+from flathub_python_api.models.upsert_quality_moderation import UpsertQualityModeration
 
 class TestUpsertQualityModeration(unittest.TestCase):
     """UpsertQualityModeration unit test stubs"""

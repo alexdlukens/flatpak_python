@@ -98,6 +98,7 @@ from flathub_python_api.models.search_query import SearchQuery
 from flathub_python_api.models.simple_quality_moderation_response import SimpleQualityModerationResponse
 from flathub_python_api.models.sort_by import SortBy
 from flathub_python_api.models.stats_result import StatsResult
+from flathub_python_api.models.stats_result_app import StatsResultApp
 from flathub_python_api.models.stats_result_category_totals import StatsResultCategoryTotals
 from flathub_python_api.models.storefront_info import StorefrontInfo
 from flathub_python_api.models.stripe_keys import StripeKeys

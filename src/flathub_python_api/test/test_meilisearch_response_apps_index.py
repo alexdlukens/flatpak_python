@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
+from flathub_python_api.models.meilisearch_response_apps_index import MeilisearchResponseAppsIndex
 
 class TestMeilisearchResponseAppsIndex(unittest.TestCase):
     """MeilisearchResponseAppsIndex unit test stubs"""
@@ -36,7 +36,7 @@ class TestMeilisearchResponseAppsIndex(unittest.TestCase):
         if include_optional:
             return MeilisearchResponseAppsIndex(
                 hits = [
-                    openapi_client.models.apps_index.AppsIndex(
+                    flathub_python_api.models.apps_index.AppsIndex(
                         name = '', 
                         keywords = [
                             ''
@@ -86,7 +86,7 @@ class TestMeilisearchResponseAppsIndex(unittest.TestCase):
         else:
             return MeilisearchResponseAppsIndex(
                 hits = [
-                    openapi_client.models.apps_index.AppsIndex(
+                    flathub_python_api.models.apps_index.AppsIndex(
                         name = '', 
                         keywords = [
                             ''

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.quality_moderation_dashboard_response import QualityModerationDashboardResponse
+from flathub_python_api.models.quality_moderation_dashboard_response import QualityModerationDashboardResponse
 
 class TestQualityModerationDashboardResponse(unittest.TestCase):
     """QualityModerationDashboardResponse unit test stubs"""
@@ -36,9 +36,9 @@ class TestQualityModerationDashboardResponse(unittest.TestCase):
         if include_optional:
             return QualityModerationDashboardResponse(
                 apps = [
-                    openapi_client.models.quality_moderation_dashboard_row.QualityModerationDashboardRow(
+                    flathub_python_api.models.quality_moderation_dashboard_row.QualityModerationDashboardRow(
                         id = '', 
-                        quality_moderation_status = openapi_client.models.quality_moderation_status.QualityModerationStatus(
+                        quality_moderation_status = flathub_python_api.models.quality_moderation_status.QualityModerationStatus(
                             passes = True, 
                             unrated = 56, 
                             passed = 56, 
@@ -48,7 +48,7 @@ class TestQualityModerationDashboardResponse(unittest.TestCase):
                         appstream = null, 
                         installs_last_7_days = 56, )
                     ],
-                pagination = openapi_client.models.pagination.Pagination(
+                pagination = flathub_python_api.models.pagination.Pagination(
                     page = 56, 
                     page_size = 56, 
                     total = 56, 
@@ -57,9 +57,9 @@ class TestQualityModerationDashboardResponse(unittest.TestCase):
         else:
             return QualityModerationDashboardResponse(
                 apps = [
-                    openapi_client.models.quality_moderation_dashboard_row.QualityModerationDashboardRow(
+                    flathub_python_api.models.quality_moderation_dashboard_row.QualityModerationDashboardRow(
                         id = '', 
-                        quality_moderation_status = openapi_client.models.quality_moderation_status.QualityModerationStatus(
+                        quality_moderation_status = flathub_python_api.models.quality_moderation_status.QualityModerationStatus(
                             passes = True, 
                             unrated = 56, 
                             passed = 56, 
@@ -69,7 +69,7 @@ class TestQualityModerationDashboardResponse(unittest.TestCase):
                         appstream = null, 
                         installs_last_7_days = 56, )
                     ],
-                pagination = openapi_client.models.pagination.Pagination(
+                pagination = flathub_python_api.models.pagination.Pagination(
                     page = 56, 
                     page_size = 56, 
                     total = 56, 

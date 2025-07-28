@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.invite_api import InviteApi
+from flathub_python_api.api.invite_api import InviteApi
 
 
 class TestInviteApi(unittest.TestCase):

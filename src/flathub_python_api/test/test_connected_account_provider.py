@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.connected_account_provider import ConnectedAccountProvider
+from flathub_python_api.models.connected_account_provider import ConnectedAccountProvider
 
 class TestConnectedAccountProvider(unittest.TestCase):
     """ConnectedAccountProvider unit test stubs"""

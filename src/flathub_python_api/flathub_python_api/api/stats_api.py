@@ -17,9 +17,10 @@ from typing import Any, Dict, List, Optional, Tuple, Union
 from typing_extensions import Annotated
 
 from pydantic import Field, StrictBool, StrictInt, field_validator
-from typing import Any, Optional
+from typing import Optional
 from typing_extensions import Annotated
 from flathub_python_api.models.stats_result import StatsResult
+from flathub_python_api.models.stats_result_app import StatsResultApp
 
 from flathub_python_api.api_client import ApiClient, RequestSerialized
 from flathub_python_api.api_response import ApiResponse
@@ -57,7 +58,7 @@ class StatsApi:
         _content_type: Optional[StrictStr] = None,
         _headers: Optional[Dict[StrictStr, Any]] = None,
         _host_index: Annotated[StrictInt, Field(ge=0, le=0)] = 0,
-    ) -> object:
+    ) -> StatsResultApp:
         """Get Stats For App
 
 
@@ -100,7 +101,7 @@ class StatsApi:
         )
 
         _response_types_map: Dict[str, Optional[str]] = {
-            '200': "object",
+            '200': "StatsResultApp",
             '422': "HTTPValidationError",
         }
         response_data = self.api_client.call_api(
@@ -132,7 +133,7 @@ class StatsApi:
         _content_type: Optional[StrictStr] = None,
         _headers: Optional[Dict[StrictStr, Any]] = None,
         _host_index: Annotated[StrictInt, Field(ge=0, le=0)] = 0,
-    ) -> ApiResponse[object]:
+    ) -> ApiResponse[StatsResultApp]:
         """Get Stats For App
 
 
@@ -175,7 +176,7 @@ class StatsApi:
         )
 
         _response_types_map: Dict[str, Optional[str]] = {
-            '200': "object",
+            '200': "StatsResultApp",
             '422': "HTTPValidationError",
         }
         response_data = self.api_client.call_api(
@@ -250,7 +251,7 @@ class StatsApi:
         )
 
         _response_types_map: Dict[str, Optional[str]] = {
-            '200': "object",
+            '200': "StatsResultApp",
             '422': "HTTPValidationError",
         }
         response_data = self.api_client.call_api(

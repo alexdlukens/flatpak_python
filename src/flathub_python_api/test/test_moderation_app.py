@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.moderation_app import ModerationApp
+from flathub_python_api.models.moderation_app import ModerationApp
 
 class TestModerationApp(unittest.TestCase):
     """ModerationApp unit test stubs"""
@@ -36,7 +36,7 @@ class TestModerationApp(unittest.TestCase):
         if include_optional:
             return ModerationApp(
                 requests = [
-                    openapi_client.models.moderation_request_response.ModerationRequestResponse(
+                    flathub_python_api.models.moderation_request_response.ModerationRequestResponse(
                         id = 56, 
                         app_id = '', 
                         created_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), 
@@ -44,7 +44,7 @@ class TestModerationApp(unittest.TestCase):
                         job_id = 56, 
                         is_outdated = True, 
                         request_type = 'appdata', 
-                        request_data = openapi_client.models.request_data.RequestData(
+                        request_data = flathub_python_api.models.request_data.RequestData(
                             keys = {
                                 'key' : null
                                 }, 
@@ -62,7 +62,7 @@ class TestModerationApp(unittest.TestCase):
         else:
             return ModerationApp(
                 requests = [
-                    openapi_client.models.moderation_request_response.ModerationRequestResponse(
+                    flathub_python_api.models.moderation_request_response.ModerationRequestResponse(
                         id = 56, 
                         app_id = '', 
                         created_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), 
@@ -70,7 +70,7 @@ class TestModerationApp(unittest.TestCase):
                         job_id = 56, 
                         is_outdated = True, 
                         request_type = 'appdata', 
-                        request_data = openapi_client.models.request_data.RequestData(
+                        request_data = flathub_python_api.models.request_data.RequestData(
                             keys = {
                                 'key' : null
                                 }, 

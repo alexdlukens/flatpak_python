@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.moderation_apps_response import ModerationAppsResponse
+from flathub_python_api.models.moderation_apps_response import ModerationAppsResponse
 
 class TestModerationAppsResponse(unittest.TestCase):
     """ModerationAppsResponse unit test stubs"""
@@ -36,7 +36,7 @@ class TestModerationAppsResponse(unittest.TestCase):
         if include_optional:
             return ModerationAppsResponse(
                 apps = [
-                    openapi_client.models.moderation_app_item.ModerationAppItem(
+                    flathub_python_api.models.moderation_app_item.ModerationAppItem(
                         appid = '', 
                         is_new_submission = True, 
                         updated_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), 
@@ -49,7 +49,7 @@ class TestModerationAppsResponse(unittest.TestCase):
         else:
             return ModerationAppsResponse(
                 apps = [
-                    openapi_client.models.moderation_app_item.ModerationAppItem(
+                    flathub_python_api.models.moderation_app_item.ModerationAppItem(
                         appid = '', 
                         is_new_submission = True, 
                         updated_at = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'), 

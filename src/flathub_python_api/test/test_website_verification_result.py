@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.website_verification_result import WebsiteVerificationResult
+from flathub_python_api.models.website_verification_result import WebsiteVerificationResult
 
 class TestWebsiteVerificationResult(unittest.TestCase):
     """WebsiteVerificationResult unit test stubs"""

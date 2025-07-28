@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.upload_tokens_api import UploadTokensApi
+from flathub_python_api.api.upload_tokens_api import UploadTokensApi
 
 
 class TestUploadTokensApi(unittest.TestCase):
