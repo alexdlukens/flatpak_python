@@ -20,6 +20,7 @@ typing-extensions = ">=4.7.1"
 catalogd-api-client = {git = "ssh://git@github.com/alexdlukens/catalogd-api-client-python.git", rev = "postgresql"}
 cdifflib = "^1.2.9"
 enlighten = "^1.14.1"
+tqdm = "^4.67.1"
 
 
 [tool.poetry.group.dev.dependencies]
