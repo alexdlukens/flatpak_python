@@ -17,7 +17,7 @@ pydantic = "^2.11.7"
 urllib3 = ">=2.1.0,<3.0.0"
 python-dateutil = ">=2.8.2"
 typing-extensions = ">=4.7.1"
-catalogd-api-client = {git = "ssh://git@github.com/alexdlukens/catalogd-api-client-python.git", rev = "postgresql"}
+catalogd-api-client = {git = "ssh://git@github.com/alexdlukens/catalogd-api-client-python.git", rev = "master"}
 cdifflib = "^1.2.9"
 enlighten = "^1.14.1"
 tqdm = "^4.67.1"
